@@ -1,6 +1,7 @@
 # passionfruit
 A very simple CSS frame work to simplify the lives of web designers.  
 Less typing, more drinking juice.
+**NB:** Not ready for production use as yet. I've got some classes to rename and reshuffle.
 
 ## Requirements:
 - (Optionally) requires the Linux Biolinum font (not included yet - I have to review the licensing thingy and see if that is possible). You can use it without this font though. Just ignore or remove the .LBCap classes.

@@ -1,6 +1,6 @@
 # passionfruit
 A very simple CSS frame work to simplify the lives of web designers.  
-Less typing, more drinking juice.
+Less typing, more drinking juice.  
 **NB:** Not ready for production use as yet. I've got some classes to rename and reshuffle.
 
 ## Requirements:

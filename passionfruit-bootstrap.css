@@ -1,0 +1,85 @@
+/*
+passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
+*/
+
+.border-well {
+  border-radius: 7px;
+  border-style: solid;
+  border-color: rgba(25, 25, 25, 0.1);
+  border-width: 3px;
+}
+
+.well-trasp {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgba(75, 75, 75, 0.2);
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.well-trasp2 {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgba(75, 75, 75, 0.2);
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.dim-well-trasp {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgba(35, 35, 35, 0.3);
+  border-width: 1px;
+  background-color: rgba(105, 105, 105, 0.2);
+}
+
+.dark-well-transp {
+  border-style: solid;
+  border-radius: 7px;
+  border-color: rgba(195, 195, 195, 0.2);
+  border-width: 1px;
+  background-color: rgba(5, 5, 5, 0.5);
+}
+
+.img-responsive-centered {
+  margin: 0 auto;
+}
+
+.img-glass-border {
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgba(135, 135, 135, 0.3);
+}
+
+.img-glass-border2 {
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgba(135, 135, 135, 0.1);
+}
+
+.img-glass-border3 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(5, 5, 5, 0.3);
+}
+
+.label-div {
+  background-color: rgb(50, 50, 50);
+  border-radius: 0px 0px 5px 5px;
+}
+
+.label-grey {
+  background-color: rgb(105, 105, 105);
+}
+
+.label.overlabel {
+  background-color: rgb(62, 63, 58);
+  color: white;
+  transition: 3.5s;
+}
+
+.label.overlabel:hover {
+  background-color: rgba(0, 205, 255, 1);
+  color: white;
+  transition: 2s;
+}

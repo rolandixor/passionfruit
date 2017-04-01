@@ -2,7 +2,10 @@
 A very simple CSS frame work to simplify the lives of web designers.  
 Less typing, more drinking juice.
 
-First commit of the actual code coming soon.
+## Requirements:
+- (Optionally) requires the Linux Biolinum font (not included yet - I have to review the licensing thingy and see if that is possible). You can use it without this font though. Just ignore or remove the .LBCap classes.
+- A sense of humour.
+- 3 Kittens. If you have any more or any less, you will die (not really).
 
 ## What's in it?
 - Simple styles for margin, padding, and text styles.

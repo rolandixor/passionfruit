@@ -1,7 +1,7 @@
 # passionfruit
 A very simple CSS frame work to simplify the lives of web designers.  
 Less typing, more drinking juice.  
-**NB:** Not ready for production use as yet. I've got some classes to rename and reshuffle.
+**NB:** Not ready for production use as yet. I've got some classes to rename and reshuffle. I've also got to remove some that are part of a personal project and do not meet the standard for passionfruit.css.
 
 ## Requirements:
 - (Optionally) requires the Linux Biolinum font (not included yet - I have to review the licensing thingy and see if that is possible). You can use it without this font though. Just ignore or remove the .LBCap classes.
@@ -24,3 +24,4 @@ Less typing, more drinking juice.
 - passionfruit is designed to be non-intrusive.
 - It is tested alongside Bootstrap, but should work with anything, because it is so simple.
 - Will work well along with "Anole" (More on that later).
+- With the exception of text and border classes, does not in any way affect the color of any element.

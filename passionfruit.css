@@ -6,17 +6,26 @@ passionfruit.css - A css library of commonly used styles.
 @font-face {
     font-family: "LBCap";
     src: url("fonts/LinuxBiolinum/LinBiolinum_aS.eot?") format("eot"), url("fonts/LinuxBiolinum/LinBiolinum_aS.woff") format("woff"), url("fonts/LinuxBiolinum/LinBiolinum_aS.ttf") format("truetype"), url("fonts/LinuxBiolinum/LinBiolinum_aS.svg#LinBiolinumCapitals") format("svg");
-    font-weight: normal;
     font-style: normal;
 }
 
 .LBCap {
   font-family: 'LBCap', sans-serif;
+  font-weight: normal;
+}
+
+.LBCapLight {
+  font-family: 'LBCap', sans-serif;
+  font-weight: 300 !important;
 }
 
 .LBCapBold {
   font-family: 'LBCap', sans-serif;
   font-weight: 600;
+}
+
+.light-weight {
+  font-weight: lighter !important;
 }
 /***[Fonts]***/
 

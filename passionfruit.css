@@ -1864,6 +1864,18 @@ TODO: Write all the higher numbers in.
   opacity: 0.9;
 }
 
+/* Remove text-decoration (such as underline) on hover */
+.nolight:hover {
+  text-decoration: none;
+}
+
+/* Put an element on top of everything. */
+.top-z {
+  position: relative;
+  z-index: 99 !important; /* TODO: fix this so it works with bootstrap. */
+}
+
+/* Animations */
 .hoverlight {
   background-color: rgba(0, 0, 0, 0);
   animation-name: hoverglow-out;
@@ -1899,18 +1911,7 @@ TODO: Write all the higher numbers in.
   opacity: 0.9;
 }
 
-.navimate {
-  letter-spacing: 7px;
-  animation-name: navimation;
-  animation-duration: 1s;
-}
-
-.navimate:hover {
-  letter-spacing: 9px;
-  animation-name: navimation-hover;
-  animation-duration: 1s;
-}
-
+/* Spread nav-bar items on hover for a nice, fluid effect */
 @keyframes navimation {
   from {
     letter-spacing: 9px;
@@ -1929,12 +1930,25 @@ TODO: Write all the higher numbers in.
   }
 }
 
+.navimate {
+  letter-spacing: 7px;
+  animation-name: navimation;
+  animation-duration: 1s;
+}
+
+.navimate:hover {
+  letter-spacing: 9px;
+  animation-name: navimation-hover;
+  animation-duration: 1s;
+}
+
+/* Hide an image on hover to reveal another image beneath */
+/* TODO: make this make more generic, or add more sizes, to fit more use cases */
+/* TODO: Needs testing to make sure it is working correctly */
 .hide-on-hover {
   position: relative;
   height: 500px;
   width: auto;
-  -webkit-transition: opacity 3s ease-in-out;
-  -moz-transition: opacity 3s ease-in-out;
   transition: opacity 3s ease-in-out;
 }
 
@@ -1946,7 +1960,9 @@ TODO: Write all the higher numbers in.
 .hide-on-hover img.hide-me:hover {
   opacity: 0;
 }
+/* End of hide on hover */
 
+/* Zoom in animations, great for tabs */
 @keyframes zoom-in {
   0% {
     width: 50%;
@@ -1987,15 +2003,4 @@ TODO: Write all the higher numbers in.
   animation-name: zoom-in-less;
   animation-duration: .6s;
   animation-iteration-count: 1;
-}
-
-/* Remove text-decoration (such as underline) on hover */
-.nolight:hover {
-  text-decoration: none;
-}
-
-/* Put an element on top of everything. */
-.top-z {
-  position: relative;
-  z-index: 99 !important; /* TODO: fix this so it works with bootstrap. */
 }

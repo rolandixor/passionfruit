@@ -173,15 +173,23 @@ passionfruit.css - A css library of commonly used styles.
 /***[Image Size Classes]***/
 
 /***Rounded image***/
-.img-roundcorner { /* TODO: fix so it is 15, fix all other instances in the index.html */
-  border-radius: 10px;
+.img-roundcorner {
+  border-radius: 15px;
 }
 
 .img-roundcorner7 {
   border-radius: 7px;
 }
 
+.img-roundcorner10 {
+  border-radius: 10px;
+}
+
 .img-roundtopcorner {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.img-roundtopcorner5 {
   border-radius: 5px 5px 0px 0px;
 }
 

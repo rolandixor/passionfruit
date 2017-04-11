@@ -1989,22 +1989,13 @@ TODO: Write all the higher numbers in.
   animation-iteration-count: 1;
 }
 
-.auto-wide-parent {
-  position: relative;
-}
-
-.auto-wide {
-  width: 95%;
-  height: auto;
-  position: absolute;
-  margin: auto;
-}
-
-/*Remove highlight on hover*/
+/* Remove text-decoration (such as underline) on hover */
 .nolight:hover {
   text-decoration: none;
 }
 
+/* Put an element on top of everything. */
 .top-z {
-  z-index: 99 !important;
+  position: relative;
+  z-index: 99 !important; /* TODO: fix this so it works with bootstrap. */
 }

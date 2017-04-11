@@ -31,11 +31,7 @@ passionfruit.css - A css library of commonly used styles.
 
 
 /***(Image Size Classes)***/
-.maxsi250p {
-  max-width: 250px;
-  max-height: 250px;
-}
-
+/* maxsi--- classes, which set the max image size in percentages */
 .maxsi35 {
   max-width: 35%;
   max-height: 35%;
@@ -46,10 +42,134 @@ passionfruit.css - A css library of commonly used styles.
   max-height: 50%;
 }
 
+/*minsi--- classes, which set the minimum image size in percentages */
+
 .minsi50 {
   min-width: 50%;
-  min-width: 50%;
+  min-height: 50%;
 }
+
+.minsi35 {
+  min-width: 35%;
+  min-height: 35%;
+}
+
+.minsi30 {
+  min-width: 30%;
+  min-height: 30%;
+}
+
+.minsi25 {
+  min-width: 25%;
+  min-height: 25%;
+}
+
+.minsi20 {
+  min-width: 20%;
+  min-height: 20%;
+}
+
+/* max--- classes, which set the max image size in pixels */
+.max256 {
+  max-width: auto;
+  max-height: 256px;
+}
+
+.max250 {
+  max-width: auto;
+  max-height: 250px;
+}
+
+.max200 {
+  max-width: auto;
+  max-height: 200px;
+}
+
+.max196 {
+  max-width: auto;
+  max-height: 196px;
+}
+
+.max185 {
+  max-width: auto;
+  max-height: 185px;
+}
+
+.max180 {
+  max-width: auto;
+  max-height: 180px;
+}
+
+.max175 {
+  max-width: auto;
+  max-height: 175px;
+}
+
+.max148 {
+  max-width: auto;
+  max-height: 148px;
+}
+
+.max128 {
+  max-width: auto;
+  max-height: 128px;
+}
+
+.max96 {
+  max-width: auto;
+  max-height: 96px;
+}
+
+.max84 {
+  max-width: auto;
+  max-height: 84px;
+}
+
+.max72 {
+  max-width: auto;
+  max-height: 72px;
+}
+
+.max64 {
+  max-width: auto;
+  max-height: 64px;
+}
+
+.max56 {
+  max-width: auto;
+  max-height: 56px;
+}
+
+.max50 {
+  max-width: auto;
+  max-height: 50px;
+}
+
+.max48 {
+  max-width: auto;
+  max-height: 48px;
+}
+
+.max45 {
+  max-width: auto;
+  max-height: 45px;
+}
+
+.max42 {
+  max-width: auto;
+  max-height: 42px;
+}
+
+.max40 {
+  max-width: auto;
+  max-height: 40px;
+}
+
+.max32 {
+  max-width: auto;
+  max-height: 32px;
+}
+
 /***[Image Size Classes]***/
 
 /***Rounded image***/
@@ -1879,79 +1999,4 @@ TODO: Write all the higher numbers in.
 
 .top-z {
   z-index: 99 !important;
-}
-
-.max256 {
-  max-width: auto;
-  max-height: 256px;
-}
-
-.max196 {
-  max-width: auto;
-  max-height: 196px;
-}
-
-.max148 {
-  max-width: auto;
-  max-height: 148px;
-}
-
-.max128 {
-  max-width: auto;
-  max-height: 128px;
-}
-
-.max96 {
-  max-width: auto;
-  max-height: 96px;
-}
-
-.max84 {
-  max-width: auto;
-  max-height: 84px;
-}
-
-.max72 {
-  max-width: auto;
-  max-height: 72px;
-}
-
-.max64 {
-  max-width: auto;
-  max-height: 64px;
-}
-
-.max56 {
-  max-width: auto;
-  max-height: 56px;
-}
-
-.max50 {
-  max-width: auto;
-  max-height: 50px;
-}
-
-.max48 {
-  max-width: auto;
-  max-height: 48px;
-}
-
-.max45 {
-  max-width: auto;
-  max-height: 45px;
-}
-
-.max42 {
-  max-width: auto;
-  max-height: 42px;
-}
-
-.max40 {
-  max-width: auto;
-  max-height: 40px;
-}
-
-.max32 {
-  max-width: auto;
-  max-height: 32px;
 }

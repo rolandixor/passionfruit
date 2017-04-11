@@ -1,5 +1,10 @@
 /*
+DO NOT USE THIS YET
 passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
+
+Currently being used with personal project of mine to extend bootstrap.
+The plan is to create multiple versions of this file for use with each theme on bootswatch.
+As usual, the classes here won't be anything spectacular, just simple, basic stuff.
 */
 
 .border-well {

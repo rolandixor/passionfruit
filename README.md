@@ -21,7 +21,8 @@ Less typing, more drinking juice.
 - Also makes them fun to use.
 
 ## Plays well with others
-- passionfruit is designed to be non-intrusive.
+- passionfruit is designed to be non-intrusive; nothing is set by default.
+- lightweight and simple, nothing too heavy or overwhelming.
 - It is tested alongside Bootstrap, but should work with anything, because it is so simple.
 - Will work well along with "Anole" (More on that later).
 - With the exception of text and border classes, does not in any way affect the color of any element.

@@ -1,13 +1,17 @@
 # passionfruit
 ![passionfruit logo](passionfruit.png)  
-A very simple CSS frame work to simplify the lives of web designers.  
-Less typing, more drinking juice.  
-**NB:** Not ready for production use as yet. I've got some classes to rename and reshuffle. I've also got to remove some that are part of a personal project and do not meet the standard for passionfruit.css.
+A very simple CSS framework to simplify the lives of web designers.  
+Less typing, more drinking juice.
 
 ## Requirements:
 - (Optionally) requires the Linux Biolinum font (not included yet - I have to review the licensing thingy and see if that is possible). You can use it without this font though. Just ignore or remove the .LBCap classes.
 - A sense of humour.
 - 3 Kittens. If you have any more or any less, you will die (not really).
+
+## Who is passionfruit for?
+- Web designers who are tired of writing simple fixes to simple problems.
+- Web designers who want to get the job done faster.
+- Web designers who know that passionfruit juice is the best juice. The best. Believe me.
 
 ## What's in it?
 - Simple styles for margin, padding, and text styles.

@@ -1780,18 +1780,6 @@ TODO: Write all the higher numbers in.
 }
 /*-[/Text-Spacing]-*/
 
-/*-Centered Navbar-*/
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
-
-.navbar .navbar-collapse {
-  text-align: center;
-}
-/*-[Centered Navbar]-*/
-
 /*-Standard-Footer-*/
 .footer {
   /*position: absolute;*/
@@ -1811,6 +1799,21 @@ TODO: Write all the higher numbers in.
   border-left: 0px;
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.1);
+}
+
+/*-Standard-Footer-*/
+.footer-gradient {
+  /*position: absolute;*/
+  /*bottom: 0;*/
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 35px;
+  background-image: linear-gradient(rgba(15, 15, 15, 0.0),rgba(5, 5, 5, 1));
+  position: fixed !important;
+  left: 0px !important;
+  right: 0px !important;
+  bottom: 0px !important;
+  z-index: 999 !important;
 }
 
 .footlabel {

@@ -295,7 +295,7 @@ TODO: Write all the higher numbers in.
 }
 
 .padmuhbottom {
-  padding-bottom: 5px;
+  padding-bottom: 15px;
 }
 
 .padmuhbottom1 {
@@ -384,6 +384,10 @@ TODO: Write all the higher numbers in.
 
 .padmuhbottom75 {
   padding-bottom: 75px;
+}
+
+.padmuhtop {
+  padding-top: 15px;
 }
 
 .padmuhtop1 {
@@ -480,6 +484,11 @@ TODO: Write all the higher numbers in.
 
 .padmuhtop75 {
   padding-top: 75px;
+}
+
+.padmuhsides {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .padmuhsides3 {
@@ -1066,12 +1075,24 @@ TODO: Write all the higher numbers in.
   margin-top: -30px;
 }
 
+.negamar-top32 {
+  margin-top: -32px;
+}
+
 .negamar-top33 {
   margin-top: -33px;
 }
 
+.negamar-top34 {
+  margin-top: -34px;
+}
+
 .negamar-top35 {
   margin-top: -35px;
+}
+
+.negamar-top40 {
+  margin-top: -40px;
 }
 
 .negamar-top45 {
@@ -1878,6 +1899,16 @@ TODO: Write all the higher numbers in.
   z-index: 99 !important; /* TODO: fix this so it works with bootstrap. */
 }
 
+.z-min {
+  position: relative;
+  z-index: -99;
+}
+
+.z-max {
+  position: relative;
+  z-index: 1000;
+}
+
 /* Animations */
 .hoverlight {
   background-color: rgba(0, 0, 0, 0);
@@ -2006,4 +2037,17 @@ TODO: Write all the higher numbers in.
   animation-name: zoom-in-less;
   animation-duration: .6s;
   animation-iteration-count: 1;
+}
+
+/*Border rounding*/
+.round-about7 {
+  border-radius: 7px !important;
+}
+
+.round-about15 {
+  border-radius: 15px !important;
+}
+
+.nuttin-round-me {
+  border-radius: 0px !important;
 }

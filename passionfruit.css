@@ -27,6 +27,14 @@ passionfruit.css - A css library of commonly used styles.
 .light-weight {
   font-weight: lighter !important;
 }
+
+.bold {
+  font-weight: bold;
+}
+
+.boldest {
+  font-weight: 900;
+}
 /***[Fonts]***/
 
 
@@ -199,6 +207,14 @@ Placement options
 
 .centered {
   text-align: center;
+}
+
+.hang-left-buddy {
+  text-align: left;
+}
+
+.hang-right-buddy {
+  text-align: right;
 }
 
 /* .padmeall
@@ -514,6 +530,11 @@ TODO: Write all the higher numbers in.
 .padmuhsides20 {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.padmuhsides24 {
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .padmuhsides25 {
@@ -2042,6 +2063,10 @@ TODO: Write all the higher numbers in.
 /*Border rounding*/
 .round-about7 {
   border-radius: 7px !important;
+}
+
+.round-about8 {
+  border-radius: 8px !important;
 }
 
 .round-about15 {

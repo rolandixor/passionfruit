@@ -1,10 +1,5 @@
 /*
-DO NOT USE THIS YET
 passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
-
-Currently being used with personal project of mine to extend bootstrap.
-The plan is to create multiple versions of this file for use with each theme on bootswatch.
-As usual, the classes here won't be anything spectacular, just simple, basic stuff.
 */
 
 .border-well {
@@ -51,7 +46,7 @@ As usual, the classes here won't be anything spectacular, just simple, basic stu
   border-radius: 7px;
   border-color: rgba(195, 195, 195, 0.2);
   border-width: 1px;
-  background: linear-gradient(rgba(5, 5, 5, 0.3), rgba(0, 105, 255, 0.1), rgba(0, 195, 255, 0.1), rgba(0, 0, 0, 0.0));
+  background: linear-gradient(rgba(5, 5, 5, 0.1), rgba(0, 105, 255, 0.08), rgba(0, 195, 255, 0.05), rgba(0, 0, 0, 0.0));
 }
 
 .img-responsive-centered {
@@ -79,6 +74,24 @@ As usual, the classes here won't be anything spectacular, just simple, basic stu
 .label-div {
   background-color: rgb(50, 50, 50);
   border-radius: 0px 0px 5px 5px;
+}
+
+.label-div-black {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.label-div-rich-info {
+  border-radius: 4px;
+  color: white;
+  background-color: rgb(35, 125, 245);
+}
+
+.label-div-fancy-black {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-width: 1px;
+  background-image: linear-gradient(rgba(25, 25, 25, 0.9), rgba(35, 35, 35, 1));
 }
 
 .label-grey {

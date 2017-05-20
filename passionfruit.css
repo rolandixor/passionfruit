@@ -512,9 +512,34 @@ TODO: Write all the higher numbers in.
   padding-right: 3px;
 }
 
+.padmuhsides4 {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
 .padmuhsides5 {
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.padmuhsides6 {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.padmuhsides7 {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.padmuhsides8 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.padmuhsides9 {
+  padding-left: 9px;
+  padding-right: 9px;
 }
 
 .padmuhsides10 {
@@ -963,6 +988,26 @@ TODO: Write all the higher numbers in.
   margin-right: 15px;
 }
 
+.marmuhsides35 {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.marmuhsides75 {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.marmuhsides105 {
+  margin-left: 105px;
+  margin-right: 105px;
+}
+
+.marmuhsides135 {
+  margin-left: 135px;
+  margin-right: 135px;
+}
+
 /*Negative Margins*/
 .negamar20 {
   margin: -20px;
@@ -1322,6 +1367,14 @@ TODO: Write all the higher numbers in.
 
 .negamar-bottom20 {
   margin-bottom: -20px;
+}
+
+.negamar-bottom21 {
+  margin-bottom: -21px;
+}
+
+.negamar-bottom22 {
+  margin-bottom: -22px;
 }
 
 .negamar-bottom23 {
@@ -1834,7 +1887,7 @@ TODO: Write all the higher numbers in.
   left: 0px !important;
   right: 0px !important;
   bottom: 0px !important;
-  z-index: 999 !important;
+  z-index: 1000 !important;
   border-top: 1px;
   border-bottom: 0px;
   border-right: 0px;
@@ -1855,7 +1908,7 @@ TODO: Write all the higher numbers in.
   left: 0px !important;
   right: 0px !important;
   bottom: 0px !important;
-  z-index: 999 !important;
+  z-index: 1000 !important;
 }
 
 .footlabel {
@@ -2061,6 +2114,30 @@ TODO: Write all the higher numbers in.
 }
 
 /*Border rounding*/
+.round-about {
+  border-radius: 15px !important;
+}
+
+.round-about1 {
+  border-radius: 1px !important;
+}
+
+.round-about2 {
+  border-radius: 2px !important;
+}
+
+.round-about3 {
+  border-radius: 3px !important;
+}
+
+.round-about4 {
+  border-radius: 4px !important;
+}
+
+.round-about5 {
+  border-radius: 5px !important;
+}
+
 .round-about7 {
   border-radius: 7px !important;
 }
@@ -2075,4 +2152,20 @@ TODO: Write all the higher numbers in.
 
 .nuttin-round-me {
   border-radius: 0px !important;
+}
+
+/*max-width limiters - sets max widths in percentages*/
+.maxw75 {
+  max-width: 75%;
+}
+
+/*max-width + centered limiters - sets max widths in percentages*/
+.maxw-c50 {
+  max-width: 50%;
+  margin: auto;
+}
+
+.maxw-c75 {
+  max-width: 75%;
+  margin: auto;
 }

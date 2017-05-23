@@ -502,6 +502,10 @@ TODO: Write all the higher numbers in.
   padding-top: 75px;
 }
 
+.padmuhtop175 {
+  padding-top: 175px;
+}
+
 .padmuhsides {
   padding-left: 15px;
   padding-right: 15px;
@@ -708,6 +712,10 @@ TODO: Write all the higher numbers in.
   padding-right: 14px;
 }
 
+.padmeright15 {
+  padding-right: 15px;
+}
+
 .padmeright16 {
   padding-right: 16px;
 }
@@ -725,7 +733,11 @@ TODO: Write all the higher numbers in.
 }
 
 /*Positive Margins*/
-.marme {
+.marme {/*This one needs to be deprecated*/
+  margin: 15px;
+}
+
+.marmeall {
   margin: 15px;
 }
 
@@ -986,6 +998,11 @@ TODO: Write all the higher numbers in.
 .marmuhsides {
   margin-left: 15px;
   margin-right: 15px;
+}
+
+.marmuhsides20 {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .marmuhsides35 {
@@ -1453,6 +1470,22 @@ TODO: Write all the higher numbers in.
   margin-bottom: -95px;
 }
 
+.negamar-bottom105 {
+  margin-bottom: -105px;
+}
+
+.negamar-bottom115 {
+  margin-bottom: -115px;
+}
+
+.negamar-bottom125 {
+  margin-bottom: -125px;
+}
+
+.negamar-bottom135 {
+  margin-bottom: -135px;
+}
+
 .negamar-right {
   margin-right: -15px;
 }
@@ -1644,9 +1677,45 @@ TODO: Write all the higher numbers in.
   padding: -35px;
 }
 
+.negapad-top {
+  padding-top: -15px;
+}
+
+.negapad-top1 {
+  padding-top: -1px;
+}
+
+.negapad-top2 {
+  padding-top: -2px;
+}
+
+.negapad-top3 {
+  padding-top: -3px;
+}
+
+.negapad-top5 {
+  padding-top: -5px;
+}
+
+.negapad-top6 {
+  padding-top: -6px;
+}
+
+.negapad-top30 {
+  padding-top: -30px;
+}
+
+.negapad-top35 {
+  padding-top: -35px;
+}
+
 /*-[/Placement options]-*/
 
 /***Text***/
+
+.text-white {
+  color: white !important;
+}
 
 .italics {
   font-style: italic;
@@ -1656,33 +1725,46 @@ TODO: Write all the higher numbers in.
   font-weight: lighter;
 }
 
+/*-Line spacing-*/
+.spacemuhlines {
+  line-height: 1.5;
+}
+
 /*-[Text Size]-*/
 .bigmuhtext {
-  font-size: 15px;
+  font-size: 15px !important;
 }
 
 .bigmuhtext16 {
-  font-size: 16px;
+  font-size: 16px !important;
 }
 
 .bigmuhtext17 {
-  font-size: 17px;
+  font-size: 17px !important;
 }
 
 .bigmuhtext18 {
-  font-size: 18px;
+  font-size: 18px !important;
 }
 
 .bigmuhtext19 {
-  font-size: 19px;
+  font-size: 19px !important;
 }
 
 .bigmuhtext20 {
-  font-size: 20px;
+  font-size: 20px !important;
 }
 
 .bigmuhtext25 {
-  font-size: 25px;
+  font-size: 25px !important;
+}
+
+.bigmuhtext35 {
+  font-size: 35px !important;
+}
+
+.bigmuhtext45 {
+  font-size: 45px !important;
 }
 
 .smallmuhtext {
@@ -1896,6 +1978,26 @@ TODO: Write all the higher numbers in.
   border-color: rgba(255, 255, 255, 0.1);
 }
 
+.footer-light {
+  /*position: absolute;*/
+  /*bottom: 0;*/
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 35px;
+  background-image: linear-gradient(rgba(175, 175, 175, 1), rgba(215, 215, 215, 1));
+  position: fixed !important;
+  left: 0px !important;
+  right: 0px !important;
+  bottom: 0px !important;
+  z-index: 1000 !important;
+  border-top: 2px;
+  border-bottom: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-style: solid;
+  border-color: rgba(205, 205, 255, 0.1);
+}
+
 /*-Standard-Footer-*/
 .footer-gradient {
   /*position: absolute;*/
@@ -1904,6 +2006,21 @@ TODO: Write all the higher numbers in.
   /* Set the fixed height of the footer here */
   height: 35px;
   background-image: linear-gradient(rgba(15, 15, 15, 0.0),rgba(5, 5, 5, 1));
+  position: fixed !important;
+  left: 0px !important;
+  right: 0px !important;
+  bottom: 0px !important;
+  z-index: 1000 !important;
+}
+
+/*-Standard-Footer With lighter gradient-*/
+.footer-gradient-light {
+  /*position: absolute;*/
+  /*bottom: 0;*/
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 35px;
+  background-image: linear-gradient(rgba(15, 15, 15, 0.0), rgba(10, 10, 10, 0.1), rgba(5, 5, 5, 0.2), rgba(135, 135, 135, 0.1));
   position: fixed !important;
   left: 0px !important;
   right: 0px !important;
@@ -1964,7 +2081,7 @@ TODO: Write all the higher numbers in.
 
 /* Remove text-decoration (such as underline) on hover */
 .nolight:hover {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 /* Put an element on top of everything. */
@@ -2146,7 +2263,32 @@ TODO: Write all the higher numbers in.
   border-radius: 8px !important;
 }
 
+.round-about9 {
+  border-radius: 9px !important;
+}
+
+.round-about10 {
+  border-radius: 10px !important;
+}
+
+.round-about11 {
+  border-radius: 11px !important;
+}
+
+.round-about12 {
+  border-radius: 12px !important;
+}
+
+.round-about13 {
+  border-radius: 13px !important;
+}
+
+.round-about14 {
+  border-radius: 14px !important;
+}
+
 .round-about15 {
+
   border-radius: 15px !important;
 }
 
@@ -2168,4 +2310,30 @@ TODO: Write all the higher numbers in.
 .maxw-c75 {
   max-width: 75%;
   margin: auto;
+}
+
+.maxw-c95 {
+  max-width: 95%;
+  margin: auto;
+}
+
+/***
+Center vertically without heights.
+***/
+
+.vert-center-out {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.vert-center-mid {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.vert-center-in {
+  margin: auto;
+  width: auto;
 }

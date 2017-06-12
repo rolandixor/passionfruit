@@ -2,6 +2,14 @@
 passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
 */
 
+/* TODO:
+* Rename some classes, such as border-well, to be more indicative of their purpose, and update my sites to match.
+* Rename this file, since it is now much more than what it start out as.
+* Copy some of the work done here to Anole.
+* Copy some of this work to glass-maker.css and make that a new project.
+* Create electric bootstrap theme.
+ */
+
 .border-well {
   border-radius: 7px;
   border-style: solid;
@@ -25,6 +33,7 @@ passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
   background-color: rgba(255, 255, 255, 0.8);
 }
 
+/*Figure out why there are two of these with such confusing names*/
 .dim-well-trasp {
   border-style: solid;
   border-radius: 10px;
@@ -40,6 +49,7 @@ passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
   border-width: 1px;
   background-color: rgba(5, 5, 5, 0.5);
 }
+/*Figure out why there are two of these with such confusing names (I don't remember! O.o)*/
 
 .dark-well-transp-blugrad {
   border-style: solid;
@@ -104,6 +114,19 @@ passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
   background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
 }
 
+.label-div-glass-white {
+  border-radius: 5px;
+  color: rgb(35,105,255);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.7));
+}
+
+.label-div-glass-electric {
+  border-radius: 5px;
+  color: white;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(rgba(35, 195, 255, 0.8), rgba(75, 195, 255, 1), rgba(35, 195, 255, 1));
+}
+
 .label-div-fancy-black {
   border-radius: 5px;
   border-style: solid;
@@ -111,6 +134,16 @@ passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
   border-width: 1px;
   color: white;
   background-image: linear-gradient(rgba(25, 25, 25, 0.9), rgba(35, 35, 35, 1));
+}
+
+.glass-panel {
+  background-color: rgba(255, 255, 255, 0.1));
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: rgba(215, 215, 215, 0.1);
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  padding: 15px;
 }
 
 .label-grey {
@@ -184,6 +217,171 @@ passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
 
 .navbar-clear .navbar-nav > li > a:focus {
   background-color: rgba(0,0,0,0);
-  color: rgb(0, 255, 105);
+  color: rgba(255, 255, 255, 0.8);
   transition: all 0.5s;
+  outline: none;
+  transition: all 1.75s;
+}
+
+.navbar-clear .navbar-nav > li:hover > a:focus {
+  background-color: rgba(0,0,0,0);
+  color: rgb(35, 235, 255);
+  letter-spacing: 4px;
+  transition: all 1.75s;
+}
+
+.shadow-boxer {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+}
+
+.shadow-boxer-medium {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-boxer-light {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.shadow-boxer-wide {
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-boxer-wide-light {
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.2);
+}
+
+.shadow-boxer-white {
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+}
+
+.shadow-boxer-electric {
+  box-shadow: 0px 0px 35px rgba(35, 215, 255, 0.5);
+}
+
+.picture-frame5 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+}
+
+.picture-frame8 {
+  border-style: solid;
+  border-width: 8px;
+  border-color: white;
+}
+
+/* Animations */
+.hoverlight {
+  background-color: rgba(0, 0, 0, 0);
+  animation-name: hoverglow-out;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  border-radius: 7px;
+}
+
+.hoverlight:hover {
+  background-color: rgba(0, 195, 255, 0.4);
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-width: 3px;
+  border-radius: 7px;
+  animation-name: hoverglow-in;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+/* The animation code */
+@keyframes hoverglow-out {
+    from {background-color: rgba(0, 235, 255, 0.2);}
+    to {background-color: rgba(0, 0, 0, 0);}
+}
+
+/* The animation code */
+@keyframes hoverglow-in {
+    from {background-color: rgba(0, 0, 0, 0);}
+    to {background-color: rgba(0, 195, 255, 0.4); border-style: solid; border-color: rgba(255, 255, 255, 0.1); border-width: 3px; border-radius: 7px;}
+}
+
+.hoverlight:hover > a, img {
+  opacity: 0.9;
+}
+
+.glass-light {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.0);
+  border-radius: 25px;
+  transition: 2s;
+}
+
+.glass-light:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.3);
+  transition: 0.75s;
+}
+
+.glass-light-thick {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.0);
+  border-radius: 25px;
+  transition: 2s;
+}
+
+.glass-light-thick:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.5);
+  transition: 0.75s;
+}
+
+.glass-light-electric-button {
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-color: rgba(145, 145, 145, 0.1) !important;
+  border-radius: 10px !important;
+  padding-left: 15px !important;
+  background-color: rgba(45, 45, 45, 0.1) !important;
+  box-shadow: inset 0px 0px 35px rgba(5, 5, 5, 0.2);
+  transition: 2s;
+}
+
+.glass-light-electric-button:hover {
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-color: rgba(135, 135, 135, 0.1) !important;
+  border-radius: 12px;
+  padding-right: 20px !important;
+  padding-left: 25px !important;
+  color: white !important;
+  background-color: rgba(35, 215, 255, 0.8) !important;
+  box-shadow: 0px 0px 75px rgba(35, 215, 255, 0.4);
+  transition: 1.75s;
+}
+
+.glass-light-electric-stealth {
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-radius: 10px !important;
+  padding-right: : -15px !important;
+  padding-left: -15px !important;
+  background-color: rgba(0, 0, 0, 0) !im;
+  transition: 2s;
+}
+
+.glass-light-electric-stealth:hover {
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-color: rgba(135, 135, 135, 0.1) !important;
+  border-radius: 10px !important;
+  padding-left: 15px !important;
+  color: white !important;
+  background-color: rgba(35, 215, 255, 0.8) !important;
+  box-shadow: 0px 0px 75px rgba(35, 215, 255, 0.4);
+  transition: 1.75s;
 }

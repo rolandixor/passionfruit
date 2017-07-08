@@ -87,6 +87,7 @@ passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
 }
 
 .label-div-black {
+  padding: 5px;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -104,18 +105,40 @@ passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
 
 .label-div-white {
   border-radius: 5px;
+  text-align: center;
+  padding: 5px;
   color: rgb(35,105,255);
   background-color: rgba(255, 255, 255, 1);
 }
 
+.label-div-white-glass {
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  color: rgb(35,105,255);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 .label-div-fancy-white {
   border-radius: 5px;
+  text-align: center;
+  padding: 5px;
   color: rgb(35,105,255);
   background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
 }
 
+.label-div-fancy-red {
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  color: rgb(255,255,255);
+  background-image: linear-gradient(rgba(255, 35, 15, 0.8), rgba(255, 35, 15, 1), rgba(255, 35, 15, 1), rgba(255, 35, 15, 1));
+}
+
 .label-div-glass-white {
   border-radius: 5px;
+  text-align: center;
+  padding: 5px;
   color: rgb(35,105,255);
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.7));
 }
@@ -123,8 +146,19 @@ passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
 .label-div-glass-electric {
   border-radius: 5px;
   color: white;
+  text-align: center;
+  padding: 5px;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
   background-image: linear-gradient(rgba(35, 195, 255, 0.8), rgba(75, 195, 255, 1), rgba(35, 195, 255, 1));
+}
+
+.label-div-electric {
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(rgba(35, 195, 255, 1), rgba(75, 195, 255, 1), rgba(25, 175, 255, 1));
 }
 
 .label-div-fancy-black {
@@ -132,12 +166,37 @@ passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.1);
   border-width: 1px;
+  padding: 5px;
+  text-align: center;
   color: white;
   background-image: linear-gradient(rgba(25, 25, 25, 0.9), rgba(35, 35, 35, 1));
 }
 
+.label-div-soft-white {
+  border-radius: 15px;
+  box-shadow: 0px 3px 15px 3px rgba(35, 35, 35, 0.1);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(135, 135, 175, 0.2);
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  color: rgba(105, 135, 255, 0.8);
+  background-image: linear-gradient(rgba(245, 255, 255, 0.8), rgba(255, 255, 255, 1), rgba(245, 245, 245, 1));
+}
+
 .glass-panel {
   background-color: rgba(255, 255, 255, 0.1));
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: rgba(215, 215, 215, 0.1);
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  padding: 15px;
+}
+
+.glass-panel-dim {
+  background-color: rgba(45, 45, 45, 0.7);
   border-radius: 15px;
   border-width: 1px;
   border-color: rgba(215, 215, 215, 0.1);
@@ -234,6 +293,10 @@ passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
 }
 
+.shadow-boxer-heavy {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+}
+
 .shadow-boxer-medium {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
@@ -244,6 +307,10 @@ passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
 
 .shadow-boxer-wide {
   box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-boxer-wide-medium {
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.4);
 }
 
 .shadow-boxer-wide-light {
@@ -384,4 +451,12 @@ passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
   background-color: rgba(35, 215, 255, 0.8) !important;
   box-shadow: 0px 0px 75px rgba(35, 215, 255, 0.4);
   transition: 1.75s;
+}
+
+.touch-shadow {
+  transition: all 1.35s;
+}
+
+.touch-shadow:hover {
+  box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.5);
 }

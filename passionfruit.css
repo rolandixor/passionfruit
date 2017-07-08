@@ -288,6 +288,22 @@ TODO: Write all the higher numbers in.
   padding: 15px !important;
 }
 
+.padmeall16 {
+  padding: 16px !important;
+}
+
+.padmeall17 {
+  padding: 17px !important;
+}
+
+.padmeall18 {
+  padding: 18px !important;
+}
+
+.padmeall19 {
+  padding: 19px !important;
+}
+
 .padmeall20 {
   padding: 20px !important;
 }
@@ -685,6 +701,50 @@ TODO: Write all the higher numbers in.
   padding-left: 20px !important;
 }
 
+.padmeleft21 {
+  padding-left: 21px !important;
+}
+
+.padmeleft22 {
+  padding-left: 22px !important;
+}
+
+.padmeleft23 {
+  padding-left: 23px !important;
+}
+
+.padmeleft24 {
+  padding-left: 24px !important;
+}
+
+.padmeleft25 {
+  padding-left: 25px !important;
+}
+
+.padmeleft26 {
+  padding-left: 26px !important;
+}
+
+.padmeleft26 {
+  padding-left: 26px !important;
+}
+
+.padmeleft27 {
+  padding-left: 27px !important;
+}
+
+.padmeleft28 {
+  padding-left: 28px !important;
+}
+
+.padmeleft29 {
+  padding-left: 29px !important;
+}
+
+.padmeleft30 {
+  padding-left: 30px !important;
+}
+
 .padmeright {
   padding-right: 15px !important;
 }
@@ -766,8 +826,17 @@ TODO: Write all the higher numbers in.
   margin: 15px !important;
 }
 
+.centralized {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 .marmeall {
   margin: 15px !important;
+}
+
+.marmeall5 {
+  margin: 5px !important;
 }
 
 .marme5 {
@@ -804,6 +873,18 @@ TODO: Write all the higher numbers in.
 
 .marmeleft25 {
   margin-left: 25px !important;
+}
+
+.marmeleft30 {
+  margin-left: 30px !important;
+}
+
+.marmeleft35 {
+  margin-left: 35px !important;
+}
+
+.marmeleft75 {
+  margin-left: 75px !important;
 }
 
 .marmeleft100 {
@@ -1118,6 +1199,22 @@ TODO: Write all the higher numbers in.
 
 .marmuhbottom105 {
   margin-bottom: 105px !important;
+}
+
+.marmuhbottom250 {
+  margin-bottom: 250px !important;
+}
+
+.marmuhbottom305 {
+  margin-bottom: 305px !important;
+}
+
+.marmuhbottom350 {
+  margin-bottom: 350px !important;
+}
+
+.marmuhbottom400 {
+  margin-bottom: 400px !important;
 }
 
 .marmuhsides {
@@ -1683,6 +1780,22 @@ TODO: Write all the higher numbers in.
   margin-bottom: -30px !important;
 }
 
+.negamar-bottom31 {
+  margin-bottom: -31px !important;
+}
+
+.negamar-bottom32 {
+  margin-bottom: -32px !important;
+}
+
+.negamar-bottom33 {
+  margin-bottom: -33px !important;
+}
+
+.negamar-bottom34 {
+  margin-bottom: -34px !important;
+}
+
 .negamar-bottom35 {
   margin-bottom: -35px !important;
 }
@@ -1938,6 +2051,10 @@ TODO: Write all the higher numbers in.
   padding: -35px !important;
 }
 
+.negapad-bottom {
+  padding-bottom: -15px !important;
+}
+
 .negapad-top {
   padding-top: -15px !important;
 }
@@ -1974,8 +2091,28 @@ TODO: Write all the higher numbers in.
 
 /***Text***/
 
+.text-black {
+  color: black !important;
+}
+
+.text-electric {
+  color: rgb(35, 215, 255);
+}
+
+.text-grey {
+  color: grey !important;
+}
+
 .text-white {
   color: white !important;
+}
+
+.text-red {
+  color: red !important;
+}
+
+.text-shadowed {
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
 }
 
 .italics {
@@ -2281,7 +2418,7 @@ TODO: Write all the higher numbers in.
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 35px !important;
-  background-image: linear-gradient(rgba(15, 15, 15, 0.0), rgba(10, 10, 10, 0.1), rgba(5, 5, 5, 0.2), rgba(135, 135, 135, 0.1));
+  background-image: linear-gradient(rgba(15, 15, 15, 0.0), rgba(5, 5, 5, 0.1), rgba(5, 5, 5, 0.3), rgba(5, 5, 5, 0.8));
   position: fixed !important;
   left: 0px !important;
   right: 0px !important;
@@ -2354,6 +2491,10 @@ TODO: Write all the higher numbers in.
   opacity: 0.9;
 }
 
+.opacitateoff {
+  opacity: 1;
+}
+
 /* Remove text-decoration (such as underline) */
 .nolight {
   text-decoration: none !important;
@@ -2366,6 +2507,19 @@ TODO: Write all the higher numbers in.
 .nolight:focus {
   text-decoration: none !important;
 }
+
+.nolight-border {
+  border-style: none !important;
+}
+
+.nolight-border:hover {
+  border-style: none  !important;
+}
+
+.nolight-border:focus {
+  border-style: none  !important;
+}
+
 
 /* Put an element on top of everything. */
 .top-z {
@@ -2700,12 +2854,32 @@ TODO: Write all the higher numbers in.
 }
 
 /*max-width limiters - sets max widths in percentages*/
+.maxw15 {
+  max-width: 15%;
+}
+
 .maxw25 {
   max-width: 25%;
 }
 
+.maxw35 {
+  max-width: 35%;
+}
+
+.maxw45 {
+  max-width: 45%;
+}
+
 .maxw50 {
   max-width: 50%;
+}
+
+.maxw55 {
+  max-width: 55%;
+}
+
+.maxw60 {
+  max-width: 60%;
 }
 
 .maxw75 {
@@ -2723,12 +2897,37 @@ TODO: Write all the higher numbers in.
   margin: auto;
 }
 
+.maxw-c45 {
+  max-width: 45%;
+  margin: auto;
+}
+
 .maxw-c50 {
   max-width: 50%;
   margin: auto;
 }
 
+.maxw-c55 {
+  max-width: 55%;
+  margin: auto;
+}
+
+.maxw-c60 {
+  max-width: 60%;
+  margin: auto;
+}
+
+.maxw-c65 {
+  max-width: 65%;
+  margin: auto;
+}
+
 .maxw-c75 {
+  max-width: 75%;
+  margin: auto;
+}
+
+.maxw-c85 {
   max-width: 75%;
   margin: auto;
 }
@@ -2802,4 +3001,44 @@ ul.share-buttons a:focus {
 
 .flipvert {
   transform: rotate(180deg);
+}
+
+.spread-hover {
+  transition: 2.35s;
+}
+
+.spread-hover:hover {
+  letter-spacing: 5px !important;
+  transition: 0.735s;
+}
+
+.clear-on-hover {
+  transition: 3s;
+}
+
+.clear-on-hover:hover {
+  opacity: 0.3 !important;
+  transition: 0.735s;
+}
+
+.full-on-hover {
+  transition: 0.935s;
+}
+
+.full-on-hover > * {
+  transition: 0.935s;
+}
+
+.full-on-hover:hover {
+  opacity: 1.0 !important;
+  transition: 0.735s;
+}
+
+.full-on-hover:hover > * {
+  opacity: 1.0 !important;
+  transition: 0.735s;
+}
+
+.get-inline {
+  display: inline;
 }

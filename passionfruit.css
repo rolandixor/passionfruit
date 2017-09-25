@@ -28,6 +28,10 @@ passionfruit.css - A css library of commonly used styles.
   font-weight: lighter !important;
 }
 
+.normal-weight {
+  font-weight: normal !important;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -79,108 +83,126 @@ passionfruit.css - A css library of commonly used styles.
 
 /* max--- classes, which set the max image size in pixels */
 .max256 {
-  max-width: auto;
-  max-height: 256px !important;
+  max-height: auto;
+  max-width: 256px !important;
 }
 
 .max250 {
-  max-width: auto;
-  max-height: 250px !important;
+  max-height: auto;
+  max-width: 250px !important;
 }
 
 .max200 {
-  max-width: auto;
-  max-height: 200px !important;
+  max-height: auto;
+  max-width: 200px !important;
 }
 
 .max196 {
-  max-width: auto;
-  max-height: 196px !important;
+  max-height: auto;
+  max-width: 196px !important;
 }
 
 .max185 {
-  max-width: auto;
-  max-height: 185px !important;
+  max-height: auto;
+  max-width: 185px !important;
 }
 
 .max180 {
-  max-width: auto;
-  max-height: 180px !important;
+  max-height: auto;
+  max-width: 180px !important;
 }
 
 .max175 {
-  max-width: auto;
-  max-height: 175px !important;
+  max-height: auto;
+  max-width: 175px !important;
 }
 
 .max148 {
-  max-width: auto;
-  max-height: 148px !important;
+  max-height: auto;
+  max-width: 148px !important;
 }
 
 .max128 {
-  max-width: auto;
-  max-height: 128px !important;
+  max-height: auto;
+  max-width: 128px !important;
 }
 
 .max96 {
-  max-width: auto;
-  max-height: 96px !important;
+  max-height: auto;
+  max-width: 96px !important;
 }
 
 .max84 {
-  max-width: auto;
-  max-height: 84px !important;
+  max-height: auto;
+  max-width: 84px !important;
 }
 
 .max72 {
-  max-width: auto;
-  max-height: 72px !important;
+  max-height: auto;
+  max-width: 72px !important;
 }
 
 .max64 {
-  max-width: auto;
-  max-height: 64px !important;
+  max-height: auto;
+  max-width: 64px !important;
 }
 
 .max56 {
-  max-width: auto;
-  max-height: 56px !important;
+  max-height: auto;
+  max-width: 56px !important;
 }
 
 .max50 {
-  max-width: auto;
-  max-height: 50px !important;
+  max-height: auto;
+  max-width: 50px !important;
 }
 
 .max48 {
-  max-width: auto;
-  max-height: 48px !important;
+  max-height: auto;
+  max-width: 48px !important;
 }
 
 .max45 {
-  max-width: auto;
-  max-height: 45px !important;
+  max-height: auto;
+  max-width: 45px !important;
 }
 
 .max42 {
-  max-width: auto;
-  max-height: 42px !important;
+  max-height: auto;
+  max-width: 42px !important;
 }
 
 .max40 {
-  max-width: auto;
-  max-height: 40px !important;
+  max-height: auto;
+  max-width: 40px !important;
 }
 
 .max32 {
-  max-width: auto;
-  max-height: 32px !important;
+  max-height: auto;
+  max-width: 32px !important;
+}
+
+.max24 {
+  max-height: auto;
+  max-width: 24px !important;
 }
 
 /***[Image Size Classes]***/
 
-/***Rounded image (To be deprecated)***/
+/*Floats*/
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clear-float {
+  clear: both;
+}
+
+/***Rounded image (deprecated)***/
 .img-roundcorner {
   border-radius: 15px !important;
 }
@@ -213,6 +235,19 @@ Placement options
   text-align: center;
 }
 
+.leftmuhtext {
+  text-align: left !important;
+}
+
+.justmuhtext {
+  text-align: justify !important;
+}
+
+.rightmuhtext {
+  text-align: right !important;
+}
+
+/*Deprecated*/
 .hang-left-buddy {
   text-align: left;
 }
@@ -220,6 +255,7 @@ Placement options
 .hang-right-buddy {
   text-align: right;
 }
+/**/
 
 /* .padmeall
 Simple padding classes.
@@ -234,6 +270,10 @@ TODO: Write all the higher numbers in.
 
 .padmeall1 {
   padding: 1px !important;
+}
+
+.padmeall2 {
+  padding: 2px !important;
 }
 
 .padmeall3 {
@@ -323,6 +363,18 @@ TODO: Write all the higher numbers in.
 
 .padmeall45 {
   padding: 45px !important;
+}
+
+.padmeall55 {
+  padding: 55px !important;
+}
+
+.padmeall65 {
+  padding: 65px !important;
+}
+
+.padmeall75 {
+  padding: 75px !important;
 }
 
 .padmeall5top {
@@ -422,6 +474,10 @@ TODO: Write all the higher numbers in.
   padding-bottom: 75px !important;
 }
 
+.padmuhbottom105 {
+  padding-bottom: 105px !important;
+}
+
 .padmuhtop {
   padding-top: 15px !important;
 }
@@ -510,6 +566,10 @@ TODO: Write all the higher numbers in.
   padding-top: 50px !important;
 }
 
+.padmuhtop55 {
+  padding-top: 55px !important;
+}
+
 .padmuhtop60 {
   padding-top: 60px !important;
 }
@@ -522,6 +582,22 @@ TODO: Write all the higher numbers in.
   padding-top: 75px !important;
 }
 
+.padmuhtop105 {
+  padding-top: 105px !important;
+}
+
+.padmuhtop115 {
+  padding-top: 115px !important;
+}
+
+.padmuhtop125 {
+  padding-top: 125px !important;
+}
+
+.padmuhtop135 {
+  padding-top: 135px !important;
+}
+
 .padmuhtop175 {
   padding-top: 175px !important;
 }
@@ -529,6 +605,16 @@ TODO: Write all the higher numbers in.
 .padmuhsides {
   padding-left: 15px !important;
   padding-right: 15px !important;
+}
+
+.padmuhsides1 {
+  padding-left: 1px !important;
+  padding-right: 1px !important;
+}
+
+.padmuhsides2 {
+  padding-left: 2px !important;
+  padding-right: 2px !important;
 }
 
 .padmuhsides3 {
@@ -745,6 +831,10 @@ TODO: Write all the higher numbers in.
   padding-left: 30px !important;
 }
 
+.padmeleft30 {
+  padding-left: 30px !important;
+}
+
 .padmeright {
   padding-right: 15px !important;
 }
@@ -835,12 +925,128 @@ TODO: Write all the higher numbers in.
   margin: 15px !important;
 }
 
+.marmeall1 {
+  margin: 1px !important;
+}
+
+.marmeall2 {
+  margin: 2px !important;
+}
+
+.marmeall3 {
+  margin: 3px !important;
+}
+
+.marmeall4 {
+  margin: 4px !important;
+}
+
 .marmeall5 {
   margin: 5px !important;
 }
 
-.marme5 {
-  margin: 5px !important;
+.marmeall6 {
+  margin: 6px !important;
+}
+
+.marmeall7 {
+  margin: 7px !important;
+}
+
+.marmeall8 {
+  margin: 8px !important;
+}
+
+.marmeall9 {
+  margin: 9px !important;
+}
+
+.marmeall10 {
+  margin: 10px !important;
+}
+
+.marmeall15 {
+  margin: 15px !important;
+}
+
+.marmeall16 {
+  margin: 16px !important;
+}
+
+.marmeall17 {
+  margin: 17px !important;
+}
+
+.marmeall18 {
+  margin: 18px !important;
+}
+
+.marmeall19 {
+  margin: 19px !important;
+}
+
+.marmeall20 {
+  margin: 20px !important;
+}
+
+.marmeall21 {
+  margin: 21px !important;
+}
+
+.marmeall22 {
+  margin: 22px !important;
+}
+
+.marmeall23 {
+  margin: 23px !important;
+}
+
+.marmeall24 {
+  margin: 24px !important;
+}
+
+.marmeall25 {
+  margin: 25px !important;
+}
+
+.marmeall26 {
+  margin: 26px !important;
+}
+
+.marmeall27 {
+  margin: 27px !important;
+}
+
+.marmeall28 {
+  margin: 28px !important;
+}
+
+.marmeall29 {
+  margin: 29px !important;
+}
+
+.marmeall30 {
+  margin: 30px !important;
+}
+
+.marmeall31 {
+  margin: 31px !important;
+}
+
+.marmeall32 {
+  margin: 32px !important;
+}
+
+.marmeall33 {
+  margin: 33px !important;
+}
+
+.marmeall34 {
+  margin: 34px !important;
+}
+
+.marmeall35 {
+  margin: 35px !important;
 }
 
 .marmeleft {
@@ -881,6 +1087,10 @@ TODO: Write all the higher numbers in.
 
 .marmeleft35 {
   margin-left: 35px !important;
+}
+
+.marmeleft45 {
+  margin-left: 45px !important;
 }
 
 .marmeleft75 {
@@ -1152,6 +1362,47 @@ TODO: Write all the higher numbers in.
   margin-top: 75px !important;
 }
 
+.marmuhtop80 {
+  margin-top: 80px !important;
+}
+
+.marmuhtop85 {
+  margin-top: 85px !important;
+}
+
+.marmuhtop90 {
+  margin-top: 90px !important;
+}
+
+.marmuhtop95 {
+  margin-top: 95px !important;
+}
+
+.marmuhtop100 {
+  margin-top: 100px !important;
+}
+
+.marmuhtop105 {
+  margin-top: 105px !important;
+}
+
+.marmuhtop145 {
+  margin-top: 145px !important;
+}
+
+.marmuhtop155 {
+  margin-top: 155px !important;
+}
+
+.marmuhtop165 {
+  margin-top: 165px !important;
+}
+
+.marmuhtop175 {
+  margin-top: 175px !important;
+}
+
+
 .marmuhbottom {
   margin-bottom: 15px !important;
 }
@@ -1180,7 +1431,6 @@ TODO: Write all the higher numbers in.
   margin-bottom: 30px !important;
 }
 
-
 .marmuhbottom35 {
   margin-bottom: 35px !important;
 }
@@ -1189,8 +1439,24 @@ TODO: Write all the higher numbers in.
   margin-bottom: 40px !important;
 }
 
-.marmuhbottom45 {
-  margin-bottom: 45px !important;
+.marmuhbottom50 {
+  margin-bottom: 50px !important;
+}
+
+.marmuhbottom55 {
+  margin-bottom: 55px !important;
+}
+
+.marmuhbottom60 {
+  margin-bottom: 60px !important;
+}
+
+.marmuhbottom65 {
+  margin-bottom: 65px !important;
+}
+
+.marmuhbottom70 {
+  margin-bottom: 70px !important;
 }
 
 .marmuhbottom75 {
@@ -1222,6 +1488,11 @@ TODO: Write all the higher numbers in.
   margin-right: 15px !important;
 }
 
+.marmuhsides5 {
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+
 .marmuhsides20 {
   margin-left: 20px !important;
   margin-right: 20px !important;
@@ -1230,6 +1501,21 @@ TODO: Write all the higher numbers in.
 .marmuhsides35 {
   margin-left: 35px !important;
   margin-right: 35px !important;
+}
+
+.marmuhsides45 {
+  margin-left: 45px !important;
+  margin-right: 45px !important;
+}
+
+.marmuhsides55 {
+  margin-left: 55px !important;
+  margin-right: 55px !important;
+}
+
+.marmuhsides65 {
+  margin-left: 65px !important;
+  margin-right: 65px !important;
 }
 
 .marmuhsides75 {
@@ -1428,6 +1714,22 @@ TODO: Write all the higher numbers in.
   margin-top: -25px !important;
 }
 
+.negamar-top26 {
+  margin-top: -26px !important;
+}
+
+.negamar-top27 {
+  margin-top: -27px !important;
+}
+
+.negamar-top28 {
+  margin-top: -28px !important;
+}
+
+.negamar-top29 {
+  margin-top: -29px !important;
+}
+
 .negamar-top30 {
   margin-top: -30px !important;
 }
@@ -1446,6 +1748,22 @@ TODO: Write all the higher numbers in.
 
 .negamar-top35 {
   margin-top: -35px !important;
+}
+
+.negamar-top36 {
+  margin-top: -36px !important;
+}
+
+.negamar-top37 {
+  margin-top: -37px !important;
+}
+
+.negamar-top38 {
+  margin-top: -38px !important;
+}
+
+.negamar-top39 {
+  margin-top: -39px !important;
 }
 
 .negamar-top40 {
@@ -1469,7 +1787,7 @@ TODO: Write all the higher numbers in.
 }
 
 .negamar-top44 {
-  margin-top: -44spx !important;
+  margin-top: -44px !important;
 }
 
 .negamar-top45 {
@@ -1643,6 +1961,30 @@ TODO: Write all the higher numbers in.
 
 .negamar-left45 {
   margin-left: -45px !important;
+}
+
+.negamar-left50 {
+  margin-left: -50px !important;
+}
+
+.negamar-left51 {
+  margin-left: -51px !important;
+}
+
+.negamar-left52 {
+  margin-left: -52px !important;
+}
+
+.negamar-left53 {
+  margin-left: -53px !important;
+}
+
+.negamar-left54 {
+  margin-left: -54px !important;
+}
+
+.negamar-left55 {
+  margin-left: -55px !important;
 }
 
 .negamar-left75 {
@@ -1964,6 +2306,16 @@ TODO: Write all the higher numbers in.
   margin-right: -145px !important;
 }
 
+.negamar-sides {
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+}
+
+.negamar-sides0 {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
 .negamar-sides1 {
   margin-left: -1px !important;
   margin-right: -1px !important;
@@ -2039,6 +2391,35 @@ TODO: Write all the higher numbers in.
   margin-right: -15px !important;
 }
 
+.negamar-sides16 {
+  margin-left: -16px !important;
+  margin-right: -16px !important;
+}
+
+.negamar-sides17 {
+  margin-left: -17px !important;
+  margin-right: -17px !important;
+}
+
+.negamar-sides18 {
+  margin-left: -18px !important;
+  margin-right: -18px !important;
+}
+
+.negamar-sides19 {
+  margin-left: -19px !important;
+  margin-right: -19px !important;
+}
+
+.negamar-sides20 {
+  margin-left: -20px !important;
+  margin-right: -20px !important;
+}
+
+.negapad0 {
+  padding: 0px !important;
+}
+
 .negapad {
   padding: -15px !important;
 }
@@ -2095,8 +2476,28 @@ TODO: Write all the higher numbers in.
   color: black !important;
 }
 
+.text-bright-electric {
+  color: rgb(35, 235, 255) !important;
+}
+
 .text-electric {
-  color: rgb(35, 215, 255);
+  color: rgb(35, 215, 255) !important;
+}
+
+.text-dark-grey {
+  color: rgb(75, 75, 75); !important;
+}
+
+.text-deep-electric {
+  color: rgba(25, 105, 255, 1) !important;
+}
+
+.text-dull-blue {
+  color: rgb(105, 145, 255);
+}
+
+.text-dull-green {
+  color: rgb(105, 145, 95);
 }
 
 .text-grey {
@@ -2111,8 +2512,54 @@ TODO: Write all the higher numbers in.
   color: red !important;
 }
 
+/*Not in order:*/
+.text-pale-orange {
+ color: rgb(255, 195, 45);
+}
+
+.text-green {
+  color: rgb(75, 255, 105);
+}
+
+.text-bright-green {
+  color: rgb(135, 255, 105);
+}
+
+.text-deep-green {
+  color: rgb(75, 175, 65);
+}
+
+.text-grey {
+  color: rgb(135, 135, 135);
+}
+
+.text-bright-primary {
+  color: rgb(15, 135, 255);
+}
+
+.text-purple {
+  color: rgb(175, 105, 205);
+}
+/***/
+
 .text-shadowed {
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+.text-shadowed-light {
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.text-shadowed-electric {
+  text-shadow: 0px 0px 15px rgba(35, 195, 255, 0.5);
+}
+
+.text-shadowed-green {
+  text-shadow: 0px 0px 15px rgba(135, 255, 105, 0.5);
+}
+
+.text-strike {
+  text-decoration: line-through;
 }
 
 .italics {
@@ -2126,6 +2573,10 @@ TODO: Write all the higher numbers in.
 /*-Line spacing-*/
 .spacemuhlines {
   line-height: 1.5;
+}
+
+.spacemuhlines2 {
+  line-height: 2;
 }
 
 /*-[Text Size]-*/
@@ -2153,20 +2604,116 @@ TODO: Write all the higher numbers in.
   font-size: 20px !important;
 }
 
+.bigmuhtext21 {
+  font-size: 21px !important;
+}
+
+.bigmuhtext22 {
+  font-size: 22px !important;
+}
+
+.bigmuhtext23 {
+  font-size: 23px !important;
+}
+
+.bigmuhtext24 {
+  font-size: 24px !important;
+}
+
 .bigmuhtext25 {
   font-size: 25px !important;
+}
+
+.bigmuhtext30 {
+  font-size: 30px !important;
+}
+
+.bigmuhtext31 {
+  font-size: 31px !important;
+}
+
+.bigmuhtext32 {
+  font-size: 32px !important;
+}
+
+.bigmuhtext33 {
+  font-size: 33px !important;
+}
+
+.bigmuhtext34 {
+  font-size: 34px !important;
 }
 
 .bigmuhtext35 {
   font-size: 35px !important;
 }
 
+.bigmuhtext36 {
+  font-size: 36px !important;
+}
+
+.bigmuhtext37 {
+  font-size: 37px !important;
+}
+
+.bigmuhtext38 {
+  font-size: 38px !important;
+}
+
+.bigmuhtext39 {
+  font-size: 39px !important;
+}
+
+.bigmuhtext40 {
+  font-size: 40px !important;
+}
+
+.bigmuhtext41 {
+  font-size: 41px !important;
+}
+
+.bigmuhtext42 {
+  font-size: 42px !important;
+}
+
+.bigmuhtext43 {
+  font-size: 43px !important;
+}
+
+.bigmuhtext44 {
+  font-size: 44px !important;
+}
+
 .bigmuhtext45 {
   font-size: 45px !important;
 }
 
+.bigmuhtext46 {
+  font-size: 46px !important;
+}
+
+.bigmuhtext47 {
+  font-size: 47px !important;
+}
+
+.bigmuhtext48 {
+  font-size: 48px !important;
+}
+
+.bigmuhtext49 {
+  font-size: 49px !important;
+}
+
+.bigmuhtext50 {
+  font-size: 50px !important;
+}
+
 .smallmuhtext {
   font-size: 12px !important;
+}
+
+.smallmuhtext1 {
+  font-size: 1px !important;
 }
 
 .smallmuhtext5 {
@@ -2362,16 +2909,13 @@ TODO: Write all the higher numbers in.
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 35px !important;
-  background-color: rgba(15, 15, 15, 0.5);
+  background-color: rgba(15, 15, 15, 0.9);
   position: fixed !important;
   left: 0px !important;
   right: 0px !important;
   bottom: 0px !important;
   z-index: 1000 !important;
-  border-top: 1px !important;
-  border-bottom: 0px !important;
-  border-right: 0px !important;
-  border-left: 0px !important;
+  border-width: 1px 0px 0px 0px;
   border-style: solid;
   border-color: rgba(255, 255, 255, 0.1);
 }
@@ -2403,7 +2947,7 @@ TODO: Write all the higher numbers in.
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 35px !important;
-  background-image: linear-gradient(rgba(15, 15, 15, 0.0),rgba(5, 5, 5, 1));
+  background-image: linear-gradient(rgba(15, 15, 15, 0.0), rgba(15, 15, 15, 0.5));
   position: fixed !important;
   left: 0px !important;
   right: 0px !important;
@@ -2441,8 +2985,8 @@ TODO: Write all the higher numbers in.
 }
 
 .footlabel {
-  margin-top: 0% auto;
-  margin-bottom: 0% auto;
+  margin-top: auto;
+  margin-bottom: auto;
   padding-top: 3px !important;
 }
 /*-[Standard-Footer]-*/
@@ -2496,30 +3040,14 @@ TODO: Write all the higher numbers in.
 }
 
 /* Remove text-decoration (such as underline) */
-.nolight {
+.nolight, .nolight:hover, .nolight:active, .nolight:focus {
   text-decoration: none !important;
+  outline: 0;
 }
 
-.nolight:hover {
-  text-decoration: none !important;
-}
-
-.nolight:focus {
-  text-decoration: none !important;
-}
-
-.nolight-border {
+.nolight-border, .nolight-border:hover, .nolight-border:focus, .nolight-border:active {
   border-style: none !important;
 }
-
-.nolight-border:hover {
-  border-style: none  !important;
-}
-
-.nolight-border:focus {
-  border-style: none  !important;
-}
-
 
 /* Put an element on top of everything. */
 .top-z {
@@ -2573,7 +3101,7 @@ TODO: Write all the higher numbers in.
 /* Hide an image on hover to reveal another image beneath */
 /* TODO: make this make more generic, or add more sizes, to fit more use cases */
 /* TODO: Needs testing to make sure it is working correctly */
-.hide-on-hover {
+/*.hide-on-hover {
   position: relative;
   height: 500px !important;
   width: auto;
@@ -2587,8 +3115,95 @@ TODO: Write all the higher numbers in.
 
 .hide-on-hover img.hide-me:hover {
   opacity: 0;
+}*/
+
+/*New hide-on-hover - make sure to find out what uses hide-on-hover and fix it, then swap these two.*/
+/*parent only*/
+.hide-on-hover-po {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.935s;
 }
-/* End of hide on hover */
+
+
+.hide-on-hover-po:hover {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.735s;
+}
+
+/*parent only*/
+.hide-on-hover-slow-po {
+  visibility: visible;
+  opacity: 1;
+  transition: all 2.935s;
+}
+
+.hide-on-hover-slow-po:hover {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 2.735s, opacity 2.135s, visibility 2.735s !important;
+}
+
+.hide-on-hover > .hoh-child {
+  visibility: 1;
+  transition: all 0.935s;
+}
+
+.hide-on-hover:hover > .hoh-child {
+  visibility: none !important;
+  opacity: 0 !important;
+  transition: all 0.735s;
+}
+
+.switch-on-hover > .swh-child-hide {
+  display: inline;
+}
+
+.switch-on-hover:hover > .swh-child-hide {
+  display: none;
+}
+
+.switch-on-hover > .swh-child-show {
+  display: none;
+}
+
+.switch-on-hover:hover > .swh-child-show {
+  display: inline;
+}
+
+/*opacitate on hover*/
+.opacitate-on-hover {
+  transition: opacity 0.735s;
+}
+
+.opacitate-on-hover:hover {
+  opacity: 0.3;
+  transition: opacity 0.935s;
+}
+
+.opacitate-on-hover-co > .opah-child {
+  transition: opacity 0.735s;
+}
+
+.opacitate-on-hover-co:hover > .opah-child {
+  opacity: 0.3;
+  transition: opacity 0.935s;
+}
+
+/*Show children on hover*/
+.show-on-hover-co > .soh-child {
+  display: none;
+  visibility: hidden;
+  transition: all 0.935;
+}
+
+.show-on-hover-co:hover > .soh-child {
+  visibility: visible;
+  display: inline;
+  transition: all 0.735;
+}
+/* End of show-on-hover */
 
 /* Zoom in animations, great for tabs */
 @keyframes zoom-in {
@@ -2689,9 +3304,11 @@ TODO: Write all the higher numbers in.
 /*unfold-x*/
 @keyframes unfold-y {
   0% {
+    opacity: 0;
     transform: scaleY(0);
   }
   100% {
+    opacity: 1;
     transform: scaleY(1);
   }
 }
@@ -2713,15 +3330,35 @@ TODO: Write all the higher numbers in.
 /*unfold-x*/
 @keyframes unfold-x {
   0% {
+    opacity: 0;
     transform: scaleX(0);
   }
   100% {
+    opacity: 1;
     transform: scaleX(1);
   }
 }
 
 .unfold-x {
   animation-name: unfold-x;
+  animation-duration: 1.35s;
+  animation-iteration-count: 1;
+}
+
+/*unfold-x*/
+@keyframes unfold-xb {
+  0% {
+    opacity: 0;
+    transform: scaleX(1.235);
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+.unfold-xb {
+  animation-name: unfold-xb;
   animation-duration: 1.35s;
   animation-iteration-count: 1;
 }
@@ -2781,6 +3418,10 @@ TODO: Write all the higher numbers in.
   border-radius: 5px !important;
 }
 
+.round-about6 {
+  border-radius: 6px !important;
+}
+
 .round-about7 {
   border-radius: 7px !important;
 }
@@ -2814,8 +3455,190 @@ TODO: Write all the higher numbers in.
 }
 
 .round-about15 {
-
   border-radius: 15px !important;
+}
+
+.round-about-circle {
+  border-radius: 100% !important;
+}
+
+.roundmuhtop {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.roundmuhtop1 {
+  border-radius: 1px 1px 0px 0px;
+}
+
+.roundmuhtop2 {
+  border-radius: 2px 2px 0px 0px;
+}
+
+.roundmuhtop3 {
+  border-radius: 3px 3px 0px 0px;
+}
+
+.roundmuhtop4 {
+  border-radius: 4px 4px 0px 0px;
+}
+
+.roundmuhtop5 {
+  border-radius: 5px 5px 0px 0px;
+}
+
+.roundmuhtop6 {
+  border-radius: 6px 6px 0px 0px;
+}
+
+.roundmuhtop7 {
+  border-radius: 7px 7px 0px 0px;
+}
+
+.roundmuhtop8 {
+  border-radius: 8px 8px 0px 0px;
+}
+
+.roundmuhtop9 {
+  border-radius: 9px 9px 0px 0px;
+}
+
+.roundmuhtop10 {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.roundmuhtop11 {
+  border-radius: 11px 11px 0px 0px;
+}
+
+.roundmuhtop12 {
+  border-radius: 12px 12px 0px 0px;
+}
+
+.roundmuhtop13 {
+  border-radius: 13px 13px 0px 0px;
+}
+
+.roundmuhtop14 {
+  border-radius: 14px 14px 0px 0px;
+}
+
+.roundmuhtop15 {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.roundmuhbottom {
+ border-bottom-left-radius: 15px !important;
+ border-bottom-right-radius: 15px !important;
+}
+
+.roundmuhbottom1 {
+ border-bottom-left-radius: 1px !important;
+ border-bottom-right-radius: 1px !important;
+}
+
+.roundmuhbottom2 {
+ border-bottom-left-radius: 2px !important;
+ border-bottom-right-radius: 3px !important;
+}
+
+.roundmuhbottom3 {
+ border-bottom-left-radius: 3px !important;
+ border-bottom-right-radius: 3px !important;
+}
+
+.roundmuhbottom10 {
+ border-bottom-left-radius: 4px !important;
+ border-bottom-right-radius: 4px !important;
+}
+
+.roundmuhbottom5 {
+ border-bottom-left-radius: 5px !important;
+ border-bottom-right-radius: 5px !important;
+}
+
+.roundmuhbottom6 {
+ border-bottom-left-radius: 6px !important;
+ border-bottom-right-radius: 6px !important;
+}
+
+.roundmuhbottom7 {
+ border-bottom-left-radius: 7px !important;
+ border-bottom-right-radius: 7px !important;
+}
+
+.roundmuhbottom8 {
+ border-bottom-left-radius: 8px !important;
+ border-bottom-right-radius: 8px !important;
+}
+
+.roundmuhbottom9 {
+ border-bottom-left-radius: 9px !important;
+ border-bottom-right-radius: 9px !important;
+}
+
+.roundmuhbottom10 {
+ border-bottom-left-radius: 10px !important;
+ border-bottom-right-radius: 10px !important;
+}
+
+.roundmuhbottom11 {
+ border-bottom-left-radius: 11px !important;
+ border-bottom-right-radius: 11px !important;
+}
+
+.roundmuhbottom12 {
+ border-bottom-left-radius: 12px !important;
+ border-bottom-right-radius: 12px !important;
+}
+
+.roundmuhbottom13 {
+ border-bottom-left-radius: 13px !important;
+ border-bottom-right-radius: 13px !important;
+}
+
+.roundmuhbottom14 {
+ border-bottom-left-radius: 14px !important;
+ border-bottom-right-radius: 14px !important;
+}
+
+.roundmuhbottom15 {
+ border-bottom-left-radius: 15px !important;
+ border-bottom-right-radius: 15px !important;
+}
+
+.roundmuhbottom16 {
+ border-bottom-left-radius: 16px !important;
+ border-bottom-right-radius: 16px !important;
+}
+
+.roundmuhbottom17 {
+ border-bottom-left-radius: 17px !important;
+ border-bottom-right-radius: 17px !important;
+}
+
+.roundmuhbottom18 {
+ border-bottom-left-radius: 18px !important;
+ border-bottom-right-radius: 18px !important;
+}
+
+.roundmuhbottom19 {
+ border-bottom-left-radius: 19px !important;
+ border-bottom-right-radius: 19px !important;
+}
+
+.roundmuhbottom20 {
+ border-bottom-left-radius: 20px !important;
+ border-bottom-right-radius: 20px !important;
+}
+
+.roundmuhbottom21 {
+ border-bottom-left-radius: 21px !important;
+ border-bottom-right-radius: 21px !important;
+}
+
+.nocolorborder {
+  border-style: none !important;
+  border-color: rgba(0, 0, 0, 0) !important;
 }
 
 .nuttin-round-me {
@@ -2882,13 +3705,27 @@ TODO: Write all the higher numbers in.
   max-width: 60%;
 }
 
+.maxw65 {
+  max-width: 60%;
+}
+
 .maxw75 {
   max-width: 75%;
 }
 
 /*max-width + centered limiters - sets max widths in percentages*/
+.maxw-c15 {
+  max-width: 15%;
+  margin: auto;
+}
+
 .maxw-c25 {
   max-width: 25%;
+  margin: auto;
+}
+
+.maxw-c30 {
+  max-width: 30%;
   margin: auto;
 }
 
@@ -2922,6 +3759,11 @@ TODO: Write all the higher numbers in.
   margin: auto;
 }
 
+.maxw-c70 {
+  max-width: 70%;
+  margin: auto;
+}
+
 .maxw-c75 {
   max-width: 75%;
   margin: auto;
@@ -2929,6 +3771,11 @@ TODO: Write all the higher numbers in.
 
 .maxw-c85 {
   max-width: 75%;
+  margin: auto;
+}
+
+.maxw-c90 {
+  max-width: 90%;
   margin: auto;
 }
 
@@ -3012,6 +3859,132 @@ ul.share-buttons a:focus {
   transition: 0.735s;
 }
 
+.spread-hover1 {
+  transition: 2.35s;
+}
+
+.spread-hover1:hover {
+  letter-spacing: 1px !important;
+  transition: 0.735s;
+}
+
+.spread-hover2 {
+  transition: 2.35s;
+}
+
+.spread-hover2:hover {
+  letter-spacing: 2px !important;
+  transition: 0.735s;
+}
+
+.spread-hover3 {
+  transition: 2.35s;
+}
+
+.spread-hover3:hover {
+  letter-spacing: 3px !important;
+  transition: 0.735s;
+}
+
+.spread-hover4 {
+  transition: 2.35s;
+}
+
+.spread-hover4:hover {
+  letter-spacing: 4px !important;
+  transition: 0.735s;
+}
+
+.spread-hover5 {
+  transition: 2.35s;
+}
+
+.spread-hover5:hover {
+  letter-spacing: 5px !important;
+  transition: 0.735s;
+}
+
+.spread-hover6 {
+  transition: 2.35s;
+}
+
+.spread-hover6:hover {
+  letter-spacing: 6px !important;
+  transition: 0.735s;
+}
+
+.spread-hover7 {
+  transition: 2.35s;
+}
+
+.spread-hover7:hover {
+  letter-spacing: 7px !important;
+  transition: 0.735s;
+}
+
+.spread-hover8 {
+  transition: 2.35s;
+}
+
+.spread-hover8:hover {
+  letter-spacing: 8px !important;
+  transition: 0.735s;
+}
+
+.spread-hover9 {
+  transition: 2.35s;
+}
+
+.spread-hover9:hover {
+  letter-spacing: 9px !important;
+  transition: 0.735s;
+}
+
+.spread-hover10 {
+  transition: 2.35s;
+}
+
+.spread-hover10:hover {
+  letter-spacing: 10px !important;
+  transition: 0.735s;
+}
+
+.spread-hover15 {
+  transition: 2.35s;
+}
+
+.spread-hover15:hover {
+  letter-spacing: 15px !important;
+  transition: 0.735s;
+}
+
+.spread-hover25 {
+  transition: 2.35s;
+}
+
+.spread-hover25:hover {
+  letter-spacing: 25px !important;
+  transition: 0.735s;
+}
+
+.spread-hover35 {
+  transition: 2.35s;
+}
+
+.spread-hover35:hover {
+  letter-spacing: 35px !important;
+  transition: 0.735s;
+}
+
+.spread-hover45 {
+  transition: 2.35s;
+}
+
+.spread-hover45:hover {
+  letter-spacing: 45px !important;
+  transition: 0.735s;
+}
+
 .clear-on-hover {
   transition: 3s;
 }
@@ -3039,6 +4012,222 @@ ul.share-buttons a:focus {
   transition: 0.735s;
 }
 
+.full-on-hover-slow {
+  transition: 0.935s;
+}
+
+.full-on-hover-slow > * {
+  transition: 0.935s;
+}
+
+.full-on-hover-slow:hover {
+  opacity: 1.0 !important;
+  transition: 1.735s;
+}
+
+.full-on-hover-slow:hover > * {
+  opacity: 1.0 !important;
+  transition: 1.735s;
+}
+
+.full-on-hover-po {
+  transition: 0.935s;
+}
+
+.full-on-hover-po:hover {
+  opacity: 1 !important;
+  transition: 0.935s;
+}
+
 .get-inline {
   display: inline;
+}
+
+.get-inline-block {
+  display: inline-block;
+}
+
+.get-blocked {
+  display: block;
+}
+
+.rel-pos {
+  position: relative !important;
+}
+
+/**WIP classes - just conceptual demonstrations for now**/
+.col-mobile {
+  width: auto;
+}
+
+.hidden-till-mobile {
+  visibility: hidden;
+  display: none;
+}
+
+.maxw-c50-mobile-c95 {
+  max-width: 50%;
+  margin: auto;
+}
+
+.maxw-c75-mobile-c95 {
+  max-width: 75%;
+  margin: auto;
+}
+
+.marmuhsides75-mobile35 {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+  }
+
+  .hidden-till-mobile {
+    display: block;
+    visibility: visible;
+  }
+
+  .hidden-navitem {
+    display: block;
+    visibility: visible;
+  }
+
+  .psfruitjuice-mobile-navitem {
+    display: block;
+    visibility: visible;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+  }
+
+  .hidden-in-mobile {
+    display: none;
+  }
+
+  .maxw-c50-mobile-c95 {
+    max-width: 95%;
+    margin: auto;
+  }
+
+  .maxw-c75-mobile-c95 {
+    max-width: 95%;
+    margin: auto;
+  }
+
+  .marmuhsides75-mobile35 {
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+}
+
+.border-thin {
+  border-width: 1px;
+  border-style: solid;
+}
+
+.border-light {
+  /*It must have a colour as far as I can tell,
+  unless there is a way to inherit the color
+  and still make it transparent*/
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(75, 75, 75, 0.2);
+}
+
+.border-light-top-bottom {
+  /*It must have a colour as far as I can tell,
+  unless there is a way to inherit the color
+  and still make it transparent*/
+  border-width: 1px 0px 1px 0px;
+  border-style: solid;
+  border-color: rgba(75, 75, 75, 0.2);
+}
+
+.border-light-shadow {
+  /*It must have a colour as far as I can tell,
+  unless there is a way to inherit the color
+  and still make it transparent*/
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(75, 75, 75, 0.2);
+  box-shadow: 0px 2px 15px 3px rgba(0, 0, 0, 0.1), 0px 0px 5px rgba(45, 45, 45, 0.1);
+}
+
+.border-light-shadow-medium {
+  /*It must have a colour as far as I can tell,
+  unless there is a way to inherit the color
+  and still make it transparent*/
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(75, 75, 75, 0.2);
+  box-shadow: 0px 2px 15px 3px rgba(0, 0, 0, 0.1), 0px 0px 7px rgba(45, 45, 45, 0.5);
+}
+
+.border-light-shadow-top-bottom {
+  /*It must have a colour as far as I can tell,
+  unless there is a way to inherit the color
+  and still make it transparent*/
+  border-width: 1px 0px 1px 0px;
+  border-style: solid;
+  border-color: rgba(75, 75, 75, 0.2);
+  box-shadow: 0px 2px 15px 3px rgba(0, 0, 0, 0.1), 0px 0px 5px rgba(45, 45, 45, 0.1);
+}
+
+/*These won't work if included in any css that preceeds passionfruit - because techology is stupid. Don't ask me...*/
+
+ul.list-square-grey li {
+  list-style-type: square;
+  color: rgb(135, 135, 135) !important;
+}
+
+ul.list-square-blue li {
+  list-style-type: square;
+  color: rgb(35, 135, 255) !important;
+}
+
+.img-fullwidth {
+  overflow: hidden;
+  width: 100%;
+}
+
+.noplay {
+  display: none;
+}
+
+.blurme-hover {
+  filter: blur(0px);
+  transition: 2.135s;
+}
+
+.blurme-hover:hover {
+  filter: blur(15px);
+  transition: 2.135s;
+}
+
+.blurme {
+  filter: blur(15px);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-content:center;
+  flex-direction: column;
+}
+
+.flex-me-central {
+  align-self: center;
+}
+
+.flex-center-row {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
 }

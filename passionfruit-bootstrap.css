@@ -1,20 +1,398 @@
 /*
-passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
+passionfruit-bootstrap.css - rename to passionfruit-juice.css
 */
 
 /* TODO:
+* Develop a consistent naming policy. (psfruitjuice-* and psjuice-*).
 * Rename some classes, such as border-well, to be more indicative of their purpose, and update my sites to match.
 * Rename this file, since it is now much more than what it start out as.
 * Copy some of the work done here to Anole.
 * Copy some of this work to glass-maker.css and make that a new project.
 * Create electric bootstrap theme.
- */
+*/
 
+.psjuice-box-white {
+  background-color: white !important;
+  padding: 15px;
+}
+
+.psjuice-box-soft-blue-white {
+  background-image: linear-gradient(rgb(245, 255, 255), rgb(255, 255, 255)) !important;
+  padding: 15px;
+}
+
+.psjuice-border-box-white-translucent {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.psjuice-border-box-grey-translucent {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(135, 135, 135, 0.2);
+}
+
+.psjuice-box-padless-white {
+  background-color: white !important;
+}
+
+.psjuice-box-padless-soft-blue-white {
+  background-image: linear-gradient(rgb(245, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255)) !important;
+}
+
+.psjuice-box-padless-grey {
+  background-color: rgba(135, 135, 135, 1) !important;
+}
+
+.psjuice-box-padless-deep-grey {
+  background-color: rgba(105, 105, 105, 1) !important;
+}
+
+.psjuice-box-padless-dark-grey {
+  background-color: rgba(45, 45, 45, 1) !important;
+}
+
+.psjuice-box-padless-grey-black {
+  background-image: linear-gradient(rgba(35, 35, 35, 1), rgba(0, 0, 0, 1)) !important;
+}
+
+.psjuice-box-padless-glass {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.psjuice-box-padless-glass-semitrans {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.psjuice-box-padless-glass-dull {
+  background-color: rgba(75, 75, 75, 0.7) !important;
+}
+
+.psjuice-box-padless-glass-dim {
+  background-color: rgba(45, 45, 45, 0.8);
+}
+
+.psjuice-box-padless-glass-hover {
+  background-color: rgba(75, 75, 75, 0.8) !important;
+  transition: all 1.375s;
+}
+
+.psjuice-box-padless-glass-hover:hover {
+  background-color: rgba(35, 175, 255, 0.9) !important;
+  box-shadow: 0px 0px 35px rgba(35, 135, 235, 0.9);
+  transition: all 1.375s;
+}
+
+.psjuice-box-padless-glass-white {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.psjuice-box-padless-glass-fancy-white {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5)) !important;
+}
+
+.psfruitjuice-navbar {
+  box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.8), 0px 0px 15px rgba(0, 0, 0, 0.9);
+  z-index: 1030;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.psfruitjuice-navtip-pushright > .navtipchild, .psfruitjuice-navtip-pushright > * > .navtipchild {
+  opacity: 0;
+  display: inline-block;
+  margin-right: -100px;
+  transition: all 4.935;
+}
+
+.psfruitjuice-navtip-pushright:hover > .navtipchild, .psfruitjuice-navtip-pushright:hover > * > .navtipchild {
+  margin-right: 0px;
+  opacity: 1;
+  transition: all 2.735;
+}
+
+.psfruitjuice-navmenu-img-container {
+  position: relative;
+  margin-bottom: auto;
+  margin-top: 5px;
+  height: 40px;
+  display: inline;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+}
+
+.psfruitjuice-navmenu-spacer-tiny-left {
+  max-width: 100%;
+  height: 50px;
+  width: 1%;
+  float: left;
+}
+
+.psfruitjuice-navmenu-spacer-tiny-right {
+  max-width: 100%;
+  height: 50px;
+  width: 1%;
+  float: right;
+}
+
+.psfruitjuice-navmenu-spacer-left {
+  max-width: 100%;
+  height: 50px;
+  width: 5%;
+  float: left;
+}
+
+.psfruitjuice-navmenu-spacer-right {
+  max-width: 100%;
+  height: 50px;
+  width: 5%;
+  float: right;
+}
+
+.psfruitjuice-navmenu-spacer-big-left {
+  max-width: 100%;
+  height: 50px;
+  width: 15%;
+  float: left;
+}
+
+.psfruitjuice-navmenu-spacer-big-right {
+  max-width: 100%;
+  height: 50px;
+  width: 15%;
+  float: right;
+}
+
+.psfruitjuice-navmenu-spacer-massive-left {
+  max-width: 100%;
+  height: 50px;
+  width: 20%;
+  float: left;
+}
+
+.psfruitjuice-navmenu-spacer-massive-right {
+  max-width: 100%;
+  height: 50px;
+  width: 20%;
+  float: right;
+}
+
+.psfruitjuice-navmenu-container {
+  position: relative;
+  margin-bottom: auto;
+  margin-top: 5px;
+  height: 40px;
+  width: 215px;
+  text-align: center;
+  display: inline;
+  float: left;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.psfruitjuice-navbutton {
+  position: relative;
+  margin-bottom: auto;
+  margin-top: 5px;
+  height: 40px;
+  width: 115px;
+  text-align: center;
+  display: inline;
+  float: left;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.psfruitjuice-navsharebutton {
+  position: relative;
+  margin-bottom: auto;
+  margin-top: 5px;
+  height: 40px;
+  width: 35px;
+  text-align: center;
+  display: inline;
+  float: left;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 15px;
+  padding-left: 18px;
+  padding-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.psfruitjuice-navbutton-container {
+  position: relative;
+  margin-bottom: auto;
+  margin-top: 5px;
+  height: 40px;
+  display: inline;
+  float: left;
+  padding: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+}
+
+.psfruitjuice-navmenu-container > .psfruitjuice-navmenu {
+  position: absolute;
+  visibility: hidden;
+  width: 75%;
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.5);
+  background-color: white;
+  color: rgba(45, 45, 45, 1);
+  left: 15%;
+  top: -2005%;
+  opacity: 0;
+  z-index: 1035;
+  transition: 1.235s;
+}
+
+.psfruitjuice-navmenu-container:hover > .psfruitjuice-navmenu {
+  position: absolute;
+  top: 75%;
+  left: -17.5%;
+  width: 135%;
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.2);
+  background-color: white;
+  color: rgba(45, 45, 45, 1);
+  visibility: visible;
+  opacity: 1;
+  box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.0), 0px 5px 35px rgba(35, 175, 255, 0.7);
+  z-index: 1035;
+  transition: 0.735s;
+}
+
+.psfruitjuice-navmenu-container > .psfruitjuice-navtooltip,
+.psfruitjuice-navmenu-img-container > .psfruitjuice-navtooltip,
+.psfruitjuice-navmenu-img-container > * > .psfruitjuice-navtooltip,
+.psfruitjuice-navbutton-container > .psfruitjuice-navtooltip,
+.psfruitjuice-navbutton-container > * > .psfruitjuice-navtooltip,
+.psfruitjuice-navbutton > * > .psfruitjuice-navtooltip,
+.psfruitjuice-navbutton > .psfruitjuice-navtooltip,
+.psfruitjuice-navsharebutton > .psfruitjuice-navtooltip,
+.psfruitjuice-navbutton-container > div > .psfruitjuice-navtooltip {
+  position: absolute;
+  visibility: hidden;
+  text-align: center;
+  padding: 8px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(rgba(245, 245, 245, 1),rgba(255, 255, 255, 1));
+  color: rgba(45, 45, 45, 1);
+  left: 0%;
+  top: 35%;
+  width: 135px;
+  opacity: 0;
+  z-index: 1035;
+  transition: 0.435s;
+}
+
+.psfruitjuice-navmenu-container:hover > .psfruitjuice-navtooltip,
+.psfruitjuice-navmenu-img-container:hover > .psfruitjuice-navtooltip,
+.psfruitjuice-navmenu-img-container:hover > * > .psfruitjuice-navtooltip,
+.psfruitjuice-navbutton-container:hover > .psfruitjuice-navtooltip,
+.psfruitjuice-navbutton-container:hover > * > .psfruitjuice-navtooltip,
+.psfruitjuice-navbutton:hover > .psfruitjuice-navtooltip,
+.psfruitjuice-navbutton:hover > * > .psfruitjuice-navtooltip,
+.psfruitjuice-navsharebutton:hover > .psfruitjuice-navtooltip,
+.psfruitjuice-navbutton-container:hover > div > .psfruitjuice-navtooltip {
+  position: absolute;
+  top: 145%;
+  left: -16.5%;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.2);
+  background-image: linear-gradient(rgba(245, 245, 245, 1),rgba(255, 255, 255, 1));
+  color: rgba(45, 45, 45, 0.9);
+  visibility: visible;
+  opacity: 1;
+  box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.0), 0px 5px 35px rgba(35, 175, 255, 0.7);
+  z-index: 1035;
+  overflow-x: visible;
+  transition: 1.035s;
+}
+
+.psfruitjuice-navmenu-item {
+  padding: 3px;
+}
+
+.psfruitjuice-navmenu-item > a {
+  text-decoration: none !important;
+  outline: 0 !important;
+  letter-spacing: 5px;
+}
+
+.psfruitjuice-navmenu-item > a > div {
+  margin: 5px;
+}
+
+/**Needs to be reworked (border-well)*/
 .border-well {
   border-radius: 7px;
   border-style: solid;
   border-color: rgba(25, 25, 25, 0.1);
   border-width: 3px;
+}
+
+.border-well-flat {
+  border-style: solid;
+  border-color: rgba(15, 15, 15, 0.1);
+  border-width: 2px;
 }
 
 .well-trasp {
@@ -82,41 +460,207 @@ passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
 }
 
 .label-div {
+  text-align: center;
   background-color: rgb(50, 50, 50);
   border-radius: 0px 0px 5px 5px;
 }
 
 .label-div-black {
+  border-radius: 5px;
   padding: 5px;
-  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+/*Deprecated!!!*/
+.label-div-bright-info-fancy {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgb(95, 195, 245), rgb(35, 135, 235));
+}
+/**/
+
+.label-div-grey {
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  background-color: rgb(135, 135, 135);
 }
 
 .label-div-dark-grey {
   border-radius: 5px;
+  padding: 5px;
   color: white;
+  text-align: center;
   background-color: rgb(75, 75, 75);
+}
+
+.label-div-deep-grey {
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  background-color: rgb(45, 45, 45);
+}
+
+.label-div-info {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-color: rgb(75, 175, 255);
+}
+
+.label-div-deep-info {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-color: rgb(15, 35, 145);
+}
+
+.label-div-dull-info {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-color: rgb(25, 105, 145);
+}
+
+.label-div-orange {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-color: rgb(235, 105, 35);
 }
 
 .label-div-rich-info {
   border-radius: 5px;
+  padding: 5px;
+  text-align: center;
   color: white;
   background-color: rgb(35, 125, 245);
 }
 
-.label-div-white {
+.label-div-yellow {
   border-radius: 5px;
-  text-align: center;
   padding: 5px;
-  color: rgb(35,105,255);
-  background-color: rgba(255, 255, 255, 1);
+  text-align: center;
+  color: black;
+  background-color: rgb(255, 195, 35);
 }
 
-.label-div-white-glass {
+.label-div-limegreen {
   border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: black;
+  background-color: rgb(135, 255, 35);
+}
+
+.label-div-pink {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-color: rgb(255, 105, 215);
+}
+
+.label-div-dull-pink {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-color: rgb(215, 95, 235);
+}
+
+.label-div-electric {
+  border-radius: 5px;
+  color: white;
   text-align: center;
   padding: 5px;
-  color: rgb(35,105,255);
-  background-color: rgba(255, 255, 255, 0.2);
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(rgba(35, 195, 255, 1), rgba(75, 195, 255, 1), rgba(25, 175, 255, 1));
+}
+
+
+.label-div-fancy-blue {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgb(95, 215, 255), rgb(35, 135, 255));
+}
+
+.label-div-fancy-blue-dim {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgb(85, 165, 255), rgb(75, 145, 245));
+}
+
+.label-div-fancy-blue-dull {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgb(75, 135, 235), rgb(75, 105, 175));
+}
+
+.label-div-fancy-grey {
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(rgb(135, 135, 135), rgb(75, 75, 75));
+}
+
+.label-div-fancy-grey-dark {
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(rgb(45, 45, 45), rgb(35, 35, 35));
+}
+
+.label-div-fancy-grey-dark-inverse {
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(rgb(35, 35, 35), rgb(45, 45, 45));
+}
+
+.label-div-fancy-purple {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgb(215, 105, 205), rgb(135, 95, 175));
+}
+
+/*needs work*/
+.label-div-fancy-orange {
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(rgba(235, 105, 75, 1), rgba(235, 75, 35, 1));
+}
+
+.label-div-fancy-pink {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgb(255, 135, 235), rgb(235, 105, 215), rgb(215, 65, 175));
 }
 
 .label-div-fancy-white {
@@ -127,12 +671,28 @@ passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
   background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
 }
 
+.label-div-fancy-grass {
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  background-image: linear-gradient(rgb(45, 215, 135), rgb(45, 135, 95))
+}
+
+.label-div-fancy-grass {
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  background-image: linear-gradient(rgb(45, 215, 135), rgb(45, 135, 95))
+}
+
 .label-div-fancy-red {
   border-radius: 5px;
   text-align: center;
   padding: 5px;
   color: rgb(255,255,255);
-  background-image: linear-gradient(rgba(255, 35, 15, 0.8), rgba(255, 35, 15, 1), rgba(255, 35, 15, 1), rgba(255, 35, 15, 1));
+  background-image: linear-gradient(rgba(255, 105, 105, 1), rgba(235, 75, 75, 1));
 }
 
 .label-div-glass-white {
@@ -152,13 +712,31 @@ passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
   background-image: linear-gradient(rgba(35, 195, 255, 0.8), rgba(75, 195, 255, 1), rgba(35, 195, 255, 1));
 }
 
-.label-div-electric {
+.label-div-glass-electric-inverse {
   border-radius: 5px;
   color: white;
   text-align: center;
   padding: 5px;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-  background-image: linear-gradient(rgba(35, 195, 255, 1), rgba(75, 195, 255, 1), rgba(25, 175, 255, 1));
+  background-image: linear-gradient(rgba(35, 195, 255, 1), rgba(75, 195, 255, 1), rgba(35, 195, 255, 0.8));
+}
+
+.label-div-deep-electric {
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(rgba(35, 175, 255, 1), rgba(15, 135, 255, 1), rgba(25, 105, 255, 1));
+}
+
+.label-div-deep-electric-inverse {
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(rgba(25, 105, 255, 1), rgba(15, 135, 255, 1), rgba(35, 175, 255, 1));
 }
 
 .label-div-fancy-black {
@@ -172,6 +750,50 @@ passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
   background-image: linear-gradient(rgba(25, 25, 25, 0.9), rgba(35, 35, 35, 1));
 }
 
+.label-div-fancy-black-solid {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-width: 1px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgba(15, 15, 15, 1), rgba(35, 35, 35, 1));
+}
+
+.label-div-fancy-black-borderless {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgba(45, 45, 45, 1), rgba(15, 15, 15, 1));
+}
+
+.label-div-purple {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-color: rgb(145, 95, 175);
+}
+
+.label-div-light-purple {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-color: rgb(175, 135, 205);
+}
+
+.label-div-soft-grey {
+  border-radius: 5px;
+  box-shadow: 0px 3px 35px rgba(35, 35, 35, 0.2);
+  padding: 5px;
+  text-align: center;
+  color: rgba(35, 35, 35, 0.5);
+  background-image: linear-gradient(rgba(245, 255, 255, 0.8), rgba(245, 245, 245, 1), rgba(225, 225, 225, 1));
+}
+
 .label-div-soft-white {
   border-radius: 15px;
   box-shadow: 0px 3px 15px 3px rgba(35, 35, 35, 0.1);
@@ -181,12 +803,28 @@ passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
   padding: 5px;
   margin: 5px;
   text-align: center;
-  color: rgba(105, 135, 255, 0.8);
+  color: rgba(35, 135, 255, 1);
   background-image: linear-gradient(rgba(245, 255, 255, 0.8), rgba(255, 255, 255, 1), rgba(245, 245, 245, 1));
 }
 
+.label-div-white {
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  color: rgb(35,105,255);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.label-div-white-glass {
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  color: rgb(35,105,255);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 .glass-panel {
-  background-color: rgba(255, 255, 255, 0.1));
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 15px;
   border-width: 1px;
   border-color: rgba(215, 215, 215, 0.1);
@@ -195,8 +833,58 @@ passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
   padding: 15px;
 }
 
+.glass-panel-semitrans {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: rgba(215, 215, 215, 0.1);
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  padding: 15px;
+}
+
+.glass-panel-dull {
+  background-color: rgba(65, 65, 65, 0.7);
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: rgba(215, 215, 215, 0.1);
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  padding: 15px;
+}
+
+.glass-panel-white {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: rgba(215, 215, 215, 0.1);
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  padding: 15px;
+}
+
+.glass-panel-dark {
+  background-color: rgba(5, 5, 5, 0.5);
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: rgba(235, 235, 235, 0.1);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+  border-style: solid;
+  padding: 15px;
+}
+
 .glass-panel-dim {
   background-color: rgba(45, 45, 45, 0.7);
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: rgba(215, 215, 215, 0.1);
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  padding: 15px;
+}
+
+.glass-panel-semidark {
+  background-color: rgba(35, 35, 35, 0.8);
   border-radius: 15px;
   border-width: 1px;
   border-color: rgba(215, 215, 215, 0.1);
@@ -317,12 +1005,132 @@ passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
   box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.2);
 }
 
+.shadow-boxer-red {
+  box-shadow: 0px 0px 15px rgba(255, 35, 75, 0.5);
+}
+
 .shadow-boxer-white {
   box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
 }
 
+.shadow-boxer-white-light {
+  box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
+}
+
 .shadow-boxer-electric {
   box-shadow: 0px 0px 35px rgba(35, 215, 255, 0.5);
+}
+
+.shadow-boxer-electric-light {
+  box-shadow: 0px 0px 35px rgba(35, 215, 255, 0.3);
+}
+
+.shadow-hover-electric {
+  transition: all 3.75s;
+}
+
+.shadow-hover-electric:hover {
+  transition: 2.35s;
+  box-shadow: 0px 0px 15px rgba(35, 215, 255, 0.7);
+}
+
+.shadow-hover-electric-glow {
+  transition: all 3.75s;
+}
+
+.shadow-hover-electric-glow:hover {
+  transition: 2.35s;
+  box-shadow: 0px 0px 15px rgba(35, 215, 255, 0.5), inset 0px 0px 15px rgba(35, 215, 255, 0.5);
+}
+
+.shadow-hover-deep-electric {
+  transition: all 3.75s;
+}
+
+.shadow-hover-deep-electric:hover {
+  transition: 2.35s;
+  box-shadow: 0px 0px 35px rgba(15, 135, 255, 0.8);
+}
+
+.shadow-hover-deep-electric-glow {
+  transition: all 3.75s;
+}
+
+.shadow-hover-deep-electric-glow:hover {
+  transition: 2.35s;
+  box-shadow: 0px 0px 15px rgba(15, 135, 255, 0.8), inset 0px 0px 15px rgba(15, 135, 255, 0.8);
+}
+
+.shadow-hover-deep-electric-glow-wide {
+  transition: all 3.75s;
+}
+
+.shadow-hover-deep-electric-glow-wide:hover {
+  transition: 2.35s;
+  box-shadow: 0px 0px 35px rgba(15, 135, 255, 0.8), inset 0px 0px 105px rgba(15, 135, 255, 0.8);
+}
+
+.shadow-hover-deep-electric-light {
+  transition: all 3.75s;
+}
+
+.shadow-hover-deep-electric-light:hover {
+  transition: 2.35s;
+  box-shadow: 0px 0px 21px rgba(15, 105, 255, 0.5);
+}
+
+.shadow-hover-green-wide {
+  transition: all 3.75s;
+}
+
+.shadow-hover-green-wide:hover {
+  transition: 2.35s;
+  box-shadow: 0px 0px 25px 1px rgba(35, 235, 135, 0.7);
+}
+
+.shadow-hover-orange {
+  transition: all 3.75s;
+}
+
+.shadow-hover-orange:hover {
+  transition: 2.35s;
+  box-shadow: 0px 0px 35px rgba(235, 95, 35, 0.9);
+}
+
+.shadow-hover-purple {
+  transition: all 3.75s;
+}
+
+.shadow-hover-purple:hover {
+  transition: 2.35s;
+  box-shadow: 0px 0px 15px rgba(145, 95, 175, 0.7);
+}
+
+.shadow-hover-purple-wide {
+  transition: all 3.75s;
+}
+
+.shadow-hover-purple-wide:hover {
+  transition: 2.35s;
+  box-shadow: 0px 0px 35px 3px rgba(145, 95, 175, 0.7);
+}
+
+.shadow-hover-red {
+  transition: all 3.75s;
+}
+
+.shadow-hover-red:hover {
+  transition: 2.35s;
+  box-shadow: 0px 0px 25px rgba(215, 15, 35, 0.7);
+}
+
+.shadow-hover-white {
+  transition: all 3.75s;
+}
+
+.shadow-hover-white:hover {
+  transition: 2.35s;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8);
 }
 
 .picture-frame5 {
@@ -435,9 +1243,9 @@ passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
   border-style: solid !important;
   border-width: 1px !important;
   border-radius: 10px !important;
-  padding-right: : -15px !important;
+  padding-right: -15px !important;
   padding-left: -15px !important;
-  background-color: rgba(0, 0, 0, 0) !im;
+  background-color: rgba(0, 0, 0, 0) !important;
   transition: 2s;
 }
 
@@ -459,4 +1267,180 @@ passionfruit-bootstrap.css - commonly used styles for use with Bootstrap
 
 .touch-shadow:hover {
   box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (min-width: 501px) {
+  .psfruit-rotation-warning {
+    opacity: 0;
+    display: none;
+  }
+
+  .psfruit-rotation-warning-backdrop {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .psfruit-rotation-warning-backdrop {
+    position: fixed;
+    left: -50%;
+    top: -50%;
+    display: block;
+    min-width: 200%;
+    min-height: 200%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 3200;
+    filter: blur(135px);
+  }
+
+  .psfruit-rotation-warning {
+    opacity: 1;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    top: 150px;
+    left: 12.5%;
+    width: 75%;
+    height: 150px;
+    background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.9));
+    z-index: 3501;
+    transition: all 0.315s;
+    letter-spacing: 5px;
+    font-size: 15px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgba(35, 35, 35, 0.3);
+    border-width: 1px;
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, 0.8) !important;
+    line-height: 25px;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+
+  .psfruit-rotation-warning::before {
+    content: "please rotate \A your screen";
+    white-space: pre;
+    position: absolute;
+    top: 27.5%;
+  }
+
+  .psfruit-rotation-warning::after {
+    content: "tap to close";
+    white-space: pre;
+    font-size: 10px;
+    position: absolute;
+    letter-spacing: 5px;
+    top: 75%;
+  }
+}
+
+.psfruit-category-box {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(45,45,45,0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+  border-style: solid;
+  border-width: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: LBCap !important;
+  transition: all 4.735s;
+}
+
+.psfruit-category-box:hover {
+  color: rgba(35, 215, 255, 1) !important;
+  text-shadow: 1px -1px 15px rgba(35, 135, 255, 1);
+  background-color: rgba(25,25,25,1);
+  box-shadow: 0px 0px 35px rgba(35, 235, 255, 0.3);
+  border-color: rgba(35, 175, 255, 0.7);
+  border-style: solid;
+  border-width: 2px;
+  font-family: LBCap !important;
+  transition: all 0.475s, color 0.035s;
+}
+
+.psfruit-category-box > span {
+  font-size: 35pt;
+  transition: 1s;
+}
+
+.psfruit-category-box > span.psfruit-catbox-appear {
+  opacity: 0;
+  position: absolute;
+  top: 36.5%;
+  left: 78.6%;
+  font-size: 17.5pt;
+  transition: 1.315s, opacity 0.735s;
+}
+
+.psfruit-category-box:hover > span.psfruit-catbox-appear {
+  opacity: 1;
+  position: absolute;
+  top: 36.5%;
+  left: 78.6%;
+  transition: all 1s, opacity 2.315s;
+}
+
+.psfruit-category-box > span.psfruit-catbox-move {
+  position: absolute;
+  top: 28.5%;
+  left: 38.5%;
+  transition: 1s;
+}
+
+.psfruit-category-box:hover > span.psfruit-catbox-move {
+  position: absolute;
+  top: 28.5%;
+  left: 17.5%;
+  transition: 1s;
+}
+
+.psfruit-category-box:after {
+  content: "enter";
+  opacity: 0;
+  position: absolute;
+  top: 37%;
+  left: 55.5%;
+  font-size: 17.5pt;
+  transition: 1s;
+}
+
+.psfruit-category-box:hover:after {
+  content: "enter";
+  opacity: 1;
+  position: absolute;
+  color: white;
+  top: 37%;
+  left: 48.5%;
+  font-size: 17.5pt;
+  letter-spacing: 3px;
+  transition: 1s;
+}
+
+.psfruit-category-box:before {
+  content: "• • •";
+  opacity: 1;
+  color: rgba(255, 215, 0, 1);
+  position: absolute;
+  top: 60.5%;
+  left: 42.5%;
+  font-size: 13.5pt;
+  transition: 1s;
+}
+
+.psfruit-category-box:hover:before {
+  content: "• • •";
+  opacity: 1;
+  color: rgba(245, 105, 135, 1);
+  position: absolute;
+  top: 60.5%;
+  left: 21.5%;
+  font-size: 13.5pt;
+  transition: 1s;
 }

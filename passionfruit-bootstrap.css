@@ -16,6 +16,23 @@ passionfruit-bootstrap.css - rename to passionfruit-juice.css
   padding: 15px;
 }
 
+.psjuice-button-white {
+  background-color: white !important;
+  padding: 15px;
+  transition: 1.5s;
+}
+
+.psjuice-button-white:hover {
+  background-color: rgb(245, 245, 245) !important;
+  padding: 15px;
+  transition: 0.5s;
+}
+
+.psjuice-box-purple {
+  background-color: rgb(175, 105, 205) !important;
+  padding: 15px;
+}
+
 .psjuice-box-soft-blue-white {
   background-image: linear-gradient(rgb(245, 255, 255), rgb(255, 255, 255)) !important;
   padding: 15px;
@@ -95,7 +112,7 @@ passionfruit-bootstrap.css - rename to passionfruit-juice.css
 .psfruitjuice-navbar {
   box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.8), 0px 0px 15px rgba(0, 0, 0, 0.9);
   z-index: 1030;
-  height: 50px;
+  min-height: 50px;
   position: fixed;
   top: 0;
   left: 0;
@@ -520,7 +537,7 @@ passionfruit-bootstrap.css - rename to passionfruit-juice.css
   padding: 5px;
   text-align: center;
   color: white;
-  background-color: rgb(15, 35, 145);
+  background-color: rgb(15, 75, 145);
 }
 
 .label-div-dull-info {
@@ -873,6 +890,16 @@ passionfruit-bootstrap.css - rename to passionfruit-juice.css
   padding: 15px;
 }
 
+.glass-panel-darker {
+  background-color: rgba(5, 5, 5, 0.8);
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: rgba(235, 235, 235, 0.1);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+  border-style: solid;
+  padding: 15px;
+}
+
 .glass-panel-dim {
   background-color: rgba(45, 45, 45, 0.7);
   border-radius: 15px;
@@ -897,16 +924,33 @@ passionfruit-bootstrap.css - rename to passionfruit-juice.css
   background-color: rgb(105, 105, 105);
 }
 
-.label.overlabel {
-  background-color: rgb(62, 63, 58);
-  color: white;
-  transition: 3.5s;
+.overlabel {
+  transition: 1.735s;
 }
 
-.label.overlabel:hover {
-  background-color: rgba(0, 205, 255, 1);
+.overlabel-electric:hover {
+  background-color: rgba(35, 175, 255, 1);
   color: white;
-  transition: 2s;
+  transition: all 1.735s !important;
+}
+
+.overlabel-electric-transp:hover {
+  background-color: rgba(35, 175, 255, 0.8);
+  color: white;
+  transition: all 1.735s !important;
+}
+
+.overlabel-glass:hover {
+  background-color: rgba(135, 135, 135, 0.5);
+  color: white;
+  transition: all 1.735s !important;
+}
+
+.overlabel-glass-dark:hover {
+  background-color: rgba(15, 15, 15, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  transition: all 1.735s !important;
 }
 
 .border-cup {
@@ -1023,6 +1067,15 @@ passionfruit-bootstrap.css - rename to passionfruit-juice.css
 
 .shadow-boxer-electric-light {
   box-shadow: 0px 0px 35px rgba(35, 215, 255, 0.3);
+}
+
+.shadow-hover-light {
+  transition: all 1.75s;
+}
+
+.shadow-hover-light:hover {
+  transition: 0.35s;
+  box-shadow: 0px 0px 15px rgba(35, 35, 35, 0.3);
 }
 
 .shadow-hover-electric {
@@ -1443,4 +1496,88 @@ passionfruit-bootstrap.css - rename to passionfruit-juice.css
   left: 21.5%;
   font-size: 13.5pt;
   transition: 1s;
+}
+
+*.psfruit-nl-container {
+
+}
+
+*.psfruit-nl-container:hover {
+}
+
+*.psfruit-nl-container > .psfruit-name-label {
+  position: absolute;
+  top: 25%;
+  left: 1.5%;
+  width: 89.5%;
+  padding: 35px;
+  padding-bottom: 38px;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: LBCap;
+  letter-spacing: 3px;
+  border-color: rgba(255, 255, 255, 0.3);
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  font-size: 16px;
+  transition: 1.35s;
+}
+
+*.psfruit-nl-container:hover > .psfruit-name-label {
+  position: absolute;
+  top: 92.5%;
+  left: 1.5%;
+  width: 89.5%;
+  padding: 5px;
+  padding-bottom: 7px;
+  letter-spacing: 3px;
+  font-size: 14px;
+  border-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(35, 135, 235, 1);
+  transition: 1.35s;
+}
+
+*.psfruit-nl-container > .psfruit-name-label-fem {
+  position: absolute;
+  top: 25%;
+  left: 1.5%;
+  width: 89.5%;
+  padding: 35px;
+  padding-bottom: 38px;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: LBCap;
+  letter-spacing: 3px;
+  border-color: rgba(255, 255, 255, 0.3);
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  font-size: 16px;
+  transition: 1.35s;
+}
+
+*.psfruit-nl-container:hover > .psfruit-name-label-fem {
+  position: absolute;
+  top: 92.5%;
+  left: 1.5%;
+  width: 89.5%;
+  padding: 5px;
+  padding-bottom: 7px;
+  letter-spacing: 3px;
+  font-size: 14px;
+  border-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(245, 105, 135, 1);
+  transition: 1.35s;
+}
+
+.psfruit-circle {
+  border-radius: 100%;
+  background-color: rgba(105, 105, 105, 1);
 }

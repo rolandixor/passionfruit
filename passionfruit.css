@@ -39,6 +39,10 @@ passionfruit.css - A css library of commonly used styles.
 .boldest {
   font-weight: 900;
 }
+
+.text-caps {
+  text-transform: uppercase;
+}
 /***[Fonts]***/
 
 
@@ -186,6 +190,113 @@ passionfruit.css - A css library of commonly used styles.
   max-height: auto;
   max-width: 24px !important;
 }
+
+/* maxall--- classes, which set the max image size in pixels (as a square)*/
+.maxall256 {
+  max-height: 256px;
+  max-width: 256px !important;
+}
+
+.maxall250 {
+  max-height: 250px;
+  max-width: 250px !important;
+}
+
+.maxall200 {
+  max-height: 200px;
+  max-width: 200px !important;
+}
+
+.maxall196 {
+  max-height: 196px;
+  max-width: 196px !important;
+}
+
+.maxall185 {
+  max-height: 185px;
+  max-width: 185px !important;
+}
+
+.maxall180 {
+  max-height: 180px;
+  max-width: 180px !important;
+}
+
+.maxall175 {
+  max-height: 175px;
+  max-width: 175px !important;
+}
+
+.maxall148 {
+  max-height: 148px;
+  max-width: 148px !important;
+}
+
+.maxall128 {
+  max-height: 128px;
+  max-width: 128px !important;
+}
+
+.maxall96 {
+  max-height: 96px;
+  max-width: 96px !important;
+}
+
+.maxall84 {
+  max-height: 84px;
+  max-width: 84px !important;
+}
+
+.maxall72 {
+  max-height: 72px;
+  max-width: 72px !important;
+}
+
+.maxall64 {
+  max-height: 64px;
+  max-width: 64px !important;
+}
+
+.maxall56 {
+  max-height: 56px;
+  max-width: 56px !important;
+}
+
+.maxall50 {
+  max-height: 50px;
+  max-width: 50px !important;
+}
+
+.maxall48 {
+  max-height: 48px;
+  max-width: 48px !important;
+}
+
+.maxall45 {
+  max-height: 45px;
+  max-width: 45px !important;
+}
+
+.maxall42 {
+  max-height: 42px;
+  max-width: 42px !important;
+}
+
+.maxall40 {
+  max-height: 40px;
+  max-width: 40px !important;
+}
+
+.maxall32 {
+  max-height: 32px;
+}
+max-width: 32px !important;
+
+.maxall24 {
+  max-height: 24px;
+  max-width: 24px !important;
+}
+
 
 /***[Image Size Classes]***/
 
@@ -1407,6 +1518,22 @@ TODO: Write all the higher numbers in.
   margin-bottom: 15px !important;
 }
 
+.marmuhbottom1 {
+  margin-bottom: 1px !important;
+}
+
+.marmuhbottom2 {
+  margin-bottom: 2px !important;
+}
+
+.marmuhbottom3 {
+  margin-bottom: 3px !important;
+}
+
+.marmuhbottom4 {
+  margin-bottom: 4px !important;
+}
+
 .marmuhbottom5 {
   margin-bottom: 5px !important;
 }
@@ -1564,6 +1691,22 @@ TODO: Write all the higher numbers in.
 
 .negamar5 {
   margin: -5px !important;
+}
+
+.negamar6 {
+  margin: -6px !important;
+}
+
+.negamar7 {
+  margin: -7px !important;
+}
+
+.negamar8 {
+  margin: -8px !important;
+}
+
+.negamar9 {
+  margin: -9px !important;
 }
 
 .negamar10 {
@@ -1880,6 +2023,10 @@ TODO: Write all the higher numbers in.
 
 .negamar-top145 {
   margin-top: -145px !important;
+}
+
+.negamar-top165 {
+  margin-top: -165px !important;
 }
 
 .negamar-top175 {
@@ -2416,6 +2563,11 @@ TODO: Write all the higher numbers in.
   margin-right: -20px !important;
 }
 
+.negamar-sides35 {
+  margin-left: -35px !important;
+  margin-right: -35px !important;
+}
+
 .negapad0 {
   padding: 0px !important;
 }
@@ -2539,6 +2691,10 @@ TODO: Write all the higher numbers in.
 
 .text-purple {
   color: rgb(175, 105, 205);
+}
+
+.text-bright-purple {
+  color: rgb(205, 115, 255);
 }
 /***/
 
@@ -3645,6 +3801,10 @@ TODO: Write all the higher numbers in.
   border-radius: 0px !important;
 }
 
+.nuttin-round-me-lite {
+  border-radius: 0px;
+}
+
 /*min-width limiters - sets max widths in pixels*/
 .minw-c150p {
   min-width: 150px !important;
@@ -4013,11 +4173,11 @@ ul.share-buttons a:focus {
 }
 
 .full-on-hover-slow {
-  transition: 0.935s;
+  transition: 1.935s;
 }
 
 .full-on-hover-slow > * {
-  transition: 0.935s;
+  transition: 1.935s;
 }
 
 .full-on-hover-slow:hover {
@@ -4055,14 +4215,25 @@ ul.share-buttons a:focus {
   position: relative !important;
 }
 
-/**WIP classes - just conceptual demonstrations for now**/
+/*Needs to be moved*/
 .col-mobile {
   width: auto;
 }
+/*Needs to be moved*/
 
 .hidden-till-mobile {
   visibility: hidden;
   display: none;
+}
+
+.maxw-c35-mobile-c95 {
+  max-width: 35%;
+  margin: auto;
+}
+
+.maxw-c45-mobile-c95 {
+  max-width: 45%;
+  margin: auto;
 }
 
 .maxw-c50-mobile-c95 {
@@ -4078,52 +4249,6 @@ ul.share-buttons a:focus {
 .marmuhsides75-mobile35 {
   margin-left: 75px;
   margin-right: 75px;
-}
-
-@media only screen and (max-width: 768px) {
-  [class*="col-"] {
-    width: 100%;
-    margin-top: 7.5px;
-    margin-bottom: 7.5px;
-  }
-
-  .hidden-till-mobile {
-    display: block;
-    visibility: visible;
-  }
-
-  .hidden-navitem {
-    display: block;
-    visibility: visible;
-  }
-
-  .psfruitjuice-mobile-navitem {
-    display: block;
-    visibility: visible;
-    display: flex;
-    justify-content:center;
-    align-content:center;
-    flex-direction:column;
-  }
-
-  .hidden-in-mobile {
-    display: none;
-  }
-
-  .maxw-c50-mobile-c95 {
-    max-width: 95%;
-    margin: auto;
-  }
-
-  .maxw-c75-mobile-c95 {
-    max-width: 95%;
-    margin: auto;
-  }
-
-  .marmuhsides75-mobile35 {
-    margin-left: 35px;
-    margin-right: 35px;
-  }
 }
 
 .border-thin {
@@ -4230,4 +4355,97 @@ ul.list-square-blue li {
   justify-content: center;
   align-content: center;
   flex-direction: row;
+}
+
+.flex-center-adjust {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+/*Columns, as in bootstrap, but more flexible.*/
+.col-256 {
+  width: 256px;
+}
+
+.col-205 {
+  width: 205px;
+}
+
+.col-196 {
+  width: 196px;
+}
+
+.col-128 {
+  width: 128px;
+}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+  }
+
+  .hidden-till-mobile {
+    display: block;
+    visibility: visible;
+  }
+
+  .hidden-navitem {
+    display: block;
+    visibility: visible;
+  }
+
+  .psfruitjuice-mobile-navitem {
+    display: block;
+    visibility: visible;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+  }
+
+  .hidden-in-mobile {
+    display: none;
+  }
+
+  .maxw-mobile-c95 {
+    max-width: 95% !important;
+    display: block !important;
+    margin: auto;
+  }
+
+  .maxw-c35-mobile-c95 {
+    max-width: 95%;
+    margin: auto;
+  }
+
+  .maxw-c45-mobile-c95 {
+    max-width: 95%;
+    margin: auto;
+  }
+
+  .maxw-c50-mobile-c95 {
+    max-width: 95%;
+    margin: auto;
+  }
+
+  .maxw-c75-mobile-c95 {
+    max-width: 95%;
+    margin: auto;
+  }
+
+  .marmuhsides75-mobile35 {
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
+  .flex-center-adjust {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
 }

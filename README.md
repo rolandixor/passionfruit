@@ -17,7 +17,7 @@ Less typing, more drinking juice.
 - Simple styles for margin, padding, and text styles.
 - Simple CSS animations.
 - Miscellaneous stuff.
-- Simple, reusable components for use with bootstrap (part of passionfruit-bootstrap.css).
+- Simple, reusable components (passionfruit-bootstrap.css (to be renamed to passionfruit-juice.css)).
 - Lot's of passionfruit juice.
 
 ## Classes written in Bajan :)

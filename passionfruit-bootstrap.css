@@ -90,6 +90,15 @@ passionfruit-bootstrap.css - rename to passionfruit-juice.css
   background-color: rgba(45, 45, 45, 0.8);
 }
 
+.psjuice-box-padless-glass-dark {
+  background-color: rgba(15, 15, 15, 0.8);
+}
+
+.psjuice-box-padless-glass-darker {
+  background-color: rgba(5, 5, 5, 0.8);
+  color: white;
+}
+
 .psjuice-box-padless-glass-hover {
   background-color: rgba(75, 75, 75, 0.8) !important;
   transition: all 1.375s;
@@ -398,20 +407,6 @@ passionfruit-bootstrap.css - rename to passionfruit-juice.css
   margin: 5px;
 }
 
-/**Needs to be reworked (border-well)*/
-.border-well {
-  border-radius: 7px;
-  border-style: solid;
-  border-color: rgba(25, 25, 25, 0.1);
-  border-width: 3px;
-}
-
-.border-well-flat {
-  border-style: solid;
-  border-color: rgba(15, 15, 15, 0.1);
-  border-width: 2px;
-}
-
 .well-trasp {
   border-style: solid;
   border-radius: 10px;
@@ -540,12 +535,37 @@ passionfruit-bootstrap.css - rename to passionfruit-juice.css
   background-color: rgb(15, 75, 145);
 }
 
+.label-div-dull-green {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-color: rgb(75, 145, 105);
+}
+
 .label-div-dull-info {
   border-radius: 5px;
   padding: 5px;
   text-align: center;
   color: white;
   background-color: rgb(25, 105, 145);
+}
+
+.label-div-dull-purple {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-color: rgb(135, 85, 145);
+}
+
+
+.label-div-dull-teal {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-color: rgb(45, 175, 175);
 }
 
 .label-div-orange {
@@ -860,8 +880,18 @@ passionfruit-bootstrap.css - rename to passionfruit-juice.css
   padding: 15px;
 }
 
-.glass-panel-dull {
-  background-color: rgba(65, 65, 65, 0.7);
+.glass-panel-transp {
+  background-color: rgba(255, 255, 255, 0.0);
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: rgba(215, 215, 215, 0.1);
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  padding: 15px;
+}
+
+.glass-panel-transp-dark {
+  background-color: rgba(5, 5, 5, 0.1);
   border-radius: 15px;
   border-width: 1px;
   border-color: rgba(215, 215, 215, 0.1);
@@ -900,11 +930,51 @@ passionfruit-bootstrap.css - rename to passionfruit-juice.css
   padding: 15px;
 }
 
+.glass-panel-darkest {
+  background-color: rgba(5, 5, 5, 0.9);
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: rgba(235, 235, 235, 0.1);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+  border-style: solid;
+  padding: 15px;
+}
+
 .glass-panel-dim {
   background-color: rgba(45, 45, 45, 0.7);
   border-radius: 15px;
   border-width: 1px;
   border-color: rgba(215, 215, 215, 0.1);
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  padding: 15px;
+}
+
+.glass-panel-dimmer {
+  background-color: rgba(45, 45, 45, 0.9);
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: rgba(215, 215, 215, 0.3);
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  padding: 15px;
+}
+
+.glass-panel-dull {
+  background-color: rgba(65, 65, 65, 0.7);
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: rgba(215, 215, 215, 0.1);
+  box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.5);
+  border-style: solid;
+  padding: 15px;
+}
+
+.glass-panel-duller {
+  background-color: rgba(65, 65, 65, 0.9);
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: rgba(215, 215, 215, 0.3);
   box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.5);
   border-style: solid;
   padding: 15px;
@@ -928,14 +998,38 @@ passionfruit-bootstrap.css - rename to passionfruit-juice.css
   transition: 1.735s;
 }
 
+.overlabel-dull-green:hover {
+  background-color: rgba(95, 215, 135, 1);
+  color: white;
+  transition: all 1.735s !important;
+}
+
 .overlabel-electric:hover {
   background-color: rgba(35, 175, 255, 1);
   color: white;
   transition: all 1.735s !important;
 }
 
+.overlabel-dull-info:hover {
+  background-color: rgba(25, 105, 145, 1);
+  color: white;
+  transition: all 1.735s !important;
+}
+
+.overlabel-purple:hover {
+  background-color: rgba(195, 135, 235, 1);
+  color: white;
+  transition: all 1.735s !important;
+}
+
 .overlabel-electric-transp:hover {
   background-color: rgba(35, 175, 255, 0.8);
+  color: white;
+  transition: all 1.735s !important;
+}
+
+.overlabel-dull-red:hover {
+  background-color: rgba(255, 105, 105, 1);
   color: white;
   transition: all 1.735s !important;
 }
@@ -1059,6 +1153,10 @@ passionfruit-bootstrap.css - rename to passionfruit-juice.css
 
 .shadow-boxer-white-light {
   box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
+}
+
+.shadow-boxer-deep-electric {
+  box-shadow: 0px 0px 35px rgba(15, 135, 255, 0.8);
 }
 
 .shadow-boxer-electric {
@@ -1199,40 +1297,43 @@ passionfruit-bootstrap.css - rename to passionfruit-juice.css
 }
 
 /* Animations */
-.hoverlight {
+
+/*Deprecated? Overlabel does the same thing now, and possibly better.*/
+.box-glow-dull-info {
   background-color: rgba(0, 0, 0, 0);
-  animation-name: hoverglow-out;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
-  border-radius: 7px;
+  transition: 2s;
 }
 
-.hoverlight:hover {
-  background-color: rgba(0, 195, 255, 0.4);
-  border-style: solid;
-  border-color: rgba(255, 255, 255, 0.1);
-  border-width: 3px;
-  border-radius: 7px;
-  animation-name: hoverglow-in;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
+.box-glow-dull-info:hover {
+  background-color: rgba(25, 105, 145, 1);
+  transition: 2s;
 }
 
-/* The animation code */
-@keyframes hoverglow-out {
-    from {background-color: rgba(0, 235, 255, 0.2);}
-    to {background-color: rgba(0, 0, 0, 0);}
-}
-
-/* The animation code */
-@keyframes hoverglow-in {
-    from {background-color: rgba(0, 0, 0, 0);}
-    to {background-color: rgba(0, 195, 255, 0.4); border-style: solid; border-color: rgba(255, 255, 255, 0.1); border-width: 3px; border-radius: 7px;}
-}
-
-.hoverlight:hover > a, img {
+.box-glow-dull-info:hover > a, img {
   opacity: 0.9;
 }
+
+.box-glow-dull-info:hover > div.label-div-dull-info {
+  opacity: 1;
+}
+/*Deprecated? Overlabel does the same thing now, and possibly better.*/
+
+/**/
+
+.glow-blue {
+  border: solid 2px rgba(0, 195, 255, 0.0);
+  border-radius: 7px;
+  transition: 2.5s;
+}
+
+.glow-blue:hover {
+  border: solid 2px rgba(0, 195, 255, 0.3);
+  border-radius: 7px;
+  background-image: radial-gradient(rgba(0,0,0,0), rgba(0,205,255,0.1));
+  transition: 1.5s;
+}
+
+/**/
 
 .glass-light {
   border-style: solid;

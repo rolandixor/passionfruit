@@ -24,6 +24,20 @@ passionfruit.css - A css library of commonly used styles.
   font-weight: 600;
 }
 
+/*Lato Fonts*/
+.LatoThin {
+  font-family: LatoWebThin;
+}
+
+.LatoLight {
+  font-family: LatoWebLight;
+}
+
+.LatoMedium {
+  font-family: LatoWebMedium;
+}
+/***/
+
 .light-weight {
   font-weight: lighter !important;
 }
@@ -32,10 +46,25 @@ passionfruit.css - A css library of commonly used styles.
   font-weight: normal !important;
 }
 
+/*deprecated*/
 .bold {
   font-weight: bold;
 }
+/*deprecated*/
 
+.text-bold {
+  font-weight: bold;
+}
+
+.text-boldest {
+  font-weight: 900;
+}
+
+.text-underlined {
+  text-decoration: underline;
+}
+
+/*deprecated*/
 .boldest {
   font-weight: 900;
 }
@@ -86,6 +115,16 @@ passionfruit.css - A css library of commonly used styles.
 }
 
 /* max--- classes, which set the max image size in pixels */
+.max512 {
+  max-height: auto;
+  max-width: 512px !important;
+}
+
+.max384 {
+  max-height: auto;
+  max-width: 384px !important;
+}
+
 .max256 {
   max-height: auto;
   max-width: 256px !important;
@@ -189,6 +228,66 @@ passionfruit.css - A css library of commonly used styles.
 .max24 {
   max-height: auto;
   max-width: 24px !important;
+}
+
+.max16 {
+  max-height: auto;
+  max-width: 16px !important;
+}
+
+.max15 {
+  max-height: auto;
+  max-width: 15px !important;
+}
+
+.max14 {
+  max-height: auto;
+  max-width: 14px !important;
+}
+
+.max13 {
+  max-height: auto;
+  max-width: 13px !important;
+}
+
+.max12 {
+  max-height: auto;
+  max-width: 12px !important;
+}
+
+.max11 {
+  max-height: auto;
+  max-width: 11px !important;
+}
+
+.max10 {
+  max-height: auto;
+  max-width: 10px !important;
+}
+
+.max9 {
+  max-height: auto;
+  max-width: 9px !important;
+}
+
+.max8 {
+  max-height: auto;
+  max-width: 8px !important;
+}
+
+.max7 {
+  max-height: auto;
+  max-width: 7px !important;
+}
+
+.max6 {
+  max-height: auto;
+  max-width: 6px !important;
+}
+
+.max5 {
+  max-height: auto;
+  max-width: 5px !important;
 }
 
 /* maxall--- classes, which set the max image size in pixels (as a square)*/
@@ -1027,6 +1126,10 @@ TODO: Write all the higher numbers in.
   margin: 15px !important;
 }
 
+.marmeauto {
+  margin: auto;
+}
+
 .centralized {
   margin-left: auto !important;
   margin-right: auto !important;
@@ -1615,9 +1718,99 @@ TODO: Write all the higher numbers in.
   margin-right: 15px !important;
 }
 
+.marmuhsides1 {
+  margin-left: 1px !important;
+  margin-right: 1px !important;
+}
+
+.marmuhsides2 {
+  margin-left: 2px !important;
+  margin-right: 2px !important;
+}
+
+.marmuhsides3 {
+  margin-left: 3px !important;
+  margin-right: 3px !important;
+}
+
+.marmuhsides4 {
+  margin-left: 4px !important;
+  margin-right: 4px !important;
+}
+
 .marmuhsides5 {
   margin-left: 5px !important;
   margin-right: 5px !important;
+}
+
+.marmuhsides6 {
+  margin-left: 6px !important;
+  margin-right: 6px !important;
+}
+
+.marmuhsides7 {
+  margin-left: 7px !important;
+  margin-right: 7px !important;
+}
+
+.marmuhsides8 {
+  margin-left: 8px !important;
+  margin-right: 8px !important;
+}
+
+.marmuhsides9 {
+  margin-left: 9px !important;
+  margin-right: 9px !important;
+}
+
+.marmuhsides10 {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+
+.marmuhsides11 {
+  margin-left: 11px !important;
+  margin-right: 11px !important;
+}
+
+.marmuhsides12 {
+  margin-left: 12px !important;
+  margin-right: 12px !important;
+}
+
+.marmuhsides13 {
+  margin-left: 13px !important;
+  margin-right: 13px !important;
+}
+
+.marmuhsides14 {
+  margin-left: 14px !important;
+  margin-right: 14px !important;
+}
+
+.marmuhsides15 {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+}
+
+.marmuhsides16 {
+  margin-left: 16px !important;
+  margin-right: 16px !important;
+}
+
+.marmuhsides17 {
+  margin-left: 17px !important;
+  margin-right: 17px !important;
+}
+
+.marmuhsides18 {
+  margin-left: 18px !important;
+  margin-right: 18px !important;
+}
+
+.marmuhsides19 {
+  margin-left: 19px !important;
+  margin-right: 19px !important;
 }
 
 .marmuhsides20 {
@@ -1625,9 +1818,124 @@ TODO: Write all the higher numbers in.
   margin-right: 20px !important;
 }
 
+.marmuhsides21 {
+  margin-left: 21px !important;
+  margin-right: 21px !important;
+}
+
+.marmuhsides22 {
+  margin-left: 22px !important;
+  margin-right: 22px !important;
+}
+
+.marmuhsides23 {
+  margin-left: 23px !important;
+  margin-right: 23px !important;
+}
+
+.marmuhsides24 {
+  margin-left: 24px !important;
+  margin-right: 24px !important;
+}
+
+.marmuhsides25 {
+  margin-left: 25px !important;
+  margin-right: 25px !important;
+}
+
+.marmuhsides26 {
+  margin-left: 26px !important;
+  margin-right: 26px !important;
+}
+
+.marmuhsides27 {
+  margin-left: 27px !important;
+  margin-right: 27px !important;
+}
+
+.marmuhsides28 {
+  margin-left: 28px !important;
+  margin-right: 28px !important;
+}
+
+.marmuhsides29 {
+  margin-left: 29px !important;
+  margin-right: 29px !important;
+}
+
+.marmuhsides30 {
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+}
+
+.marmuhsides31 {
+  margin-left: 31px !important;
+  margin-right: 31px !important;
+}
+
+.marmuhsides32 {
+  margin-left: 32px !important;
+  margin-right: 32px !important;
+}
+
+.marmuhsides33 {
+  margin-left: 33px !important;
+  margin-right: 33px !important;
+}
+
+.marmuhsides34 {
+  margin-left: 34px !important;
+  margin-right: 34px !important;
+}
+
 .marmuhsides35 {
   margin-left: 35px !important;
   margin-right: 35px !important;
+}
+
+.marmuhsides36 {
+  margin-left: 36px !important;
+  margin-right: 36px !important;
+}
+
+.marmuhsides37 {
+  margin-left: 37px !important;
+  margin-right: 37px !important;
+}
+
+.marmuhsides38 {
+  margin-left: 38px !important;
+  margin-right: 38px !important;
+}
+
+.marmuhsides39 {
+  margin-left: 39px !important;
+  margin-right: 39px !important;
+}
+
+.marmuhsides40 {
+  margin-left: 40px !important;
+  margin-right: 40px !important;
+}
+
+.marmuhsides41 {
+  margin-left: 41px !important;
+  margin-right: 41px !important;
+}
+
+.marmuhsides42 {
+  margin-left: 42px !important;
+  margin-right: 42px !important;
+}
+
+.marmuhsides43 {
+  margin-left: 43px !important;
+  margin-right: 43px !important;
+}
+
+.marmuhsides44 {
+  margin-left: 44px !important;
+  margin-right: 44px !important;
 }
 
 .marmuhsides45 {
@@ -1635,14 +1943,149 @@ TODO: Write all the higher numbers in.
   margin-right: 45px !important;
 }
 
+.marmuhsides46 {
+  margin-left: 46px !important;
+  margin-right: 46px !important;
+}
+
+.marmuhsides47 {
+  margin-left: 47px !important;
+  margin-right: 47px !important;
+}
+
+.marmuhsides48 {
+  margin-left: 48px !important;
+  margin-right: 48px !important;
+}
+
+.marmuhsides49 {
+  margin-left: 49px !important;
+  margin-right: 49px !important;
+}
+
+.marmuhsides50 {
+  margin-left: 50px !important;
+  margin-right: 50px !important;
+}
+
+.marmuhsides51 {
+  margin-left: 51px !important;
+  margin-right: 51px !important;
+}
+
+.marmuhsides52 {
+  margin-left: 52px !important;
+  margin-right: 52px !important;
+}
+
+.marmuhsides53 {
+  margin-left: 53px !important;
+  margin-right: 53px !important;
+}
+
+.marmuhsides54 {
+  margin-left: 54px !important;
+  margin-right: 54px !important;
+}
+
 .marmuhsides55 {
   margin-left: 55px !important;
   margin-right: 55px !important;
 }
 
+.marmuhsides56 {
+  margin-left: 56px !important;
+  margin-right: 56px !important;
+}
+
+.marmuhsides57 {
+  margin-left: 57px !important;
+  margin-right: 57px !important;
+}
+
+.marmuhsides58 {
+  margin-left: 58px !important;
+  margin-right: 58px !important;
+}
+
+.marmuhsides59 {
+  margin-left: 59px !important;
+  margin-right: 59px !important;
+}
+
+.marmuhsides60 {
+  margin-left: 60px !important;
+  margin-right: 60px !important;
+}
+
+.marmuhsides61 {
+  margin-left: 61px !important;
+  margin-right: 61px !important;
+}
+
+.marmuhsides62 {
+  margin-left: 62px !important;
+  margin-right: 62px !important;
+}
+
+.marmuhsides63 {
+  margin-left: 63px !important;
+  margin-right: 63px !important;
+}
+
+.marmuhsides64 {
+  margin-left: 64px !important;
+  margin-right: 64px !important;
+}
+
 .marmuhsides65 {
   margin-left: 65px !important;
   margin-right: 65px !important;
+}
+
+.marmuhsides66 {
+  margin-left: 66px !important;
+  margin-right: 66px !important;
+}
+
+.marmuhsides67 {
+  margin-left: 67px !important;
+  margin-right: 67px !important;
+}
+
+.marmuhsides68 {
+  margin-left: 68px !important;
+  margin-right: 68px !important;
+}
+
+.marmuhsides69 {
+  margin-left: 69px !important;
+  margin-right: 69px !important;
+}
+
+.marmuhsides70 {
+  margin-left: 70px !important;
+  margin-right: 70px !important;
+}
+
+.marmuhsides71 {
+  margin-left: 71px !important;
+  margin-right: 71px !important;
+}
+
+.marmuhsides72 {
+  margin-left: 72px !important;
+  margin-right: 72px !important;
+}
+
+.marmuhsides73 {
+  margin-left: 73px !important;
+  margin-right: 73px !important;
+}
+
+.marmuhsides74 {
+  margin-left: 74px !important;
+  margin-right: 74px !important;
 }
 
 .marmuhsides75 {
@@ -2718,6 +3161,11 @@ TODO: Write all the higher numbers in.
   text-decoration: line-through;
 }
 
+.text-italics {
+  font-style: italic;
+}
+
+/*deprecated*/
 .italics {
   font-style: italic;
 }
@@ -3618,6 +4066,21 @@ TODO: Write all the higher numbers in.
   border-radius: 100% !important;
 }
 
+.roundmeleft5 {
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+}
+
+.roundmeright5 {
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+}
+
+.roundmeright8 {
+  border-top-right-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+}
+
 .roundmuhtop {
   border-radius: 15px 15px 0px 0px;
 }
@@ -4226,6 +4689,11 @@ ul.share-buttons a:focus {
   display: none;
 }
 
+.maxw-c25-mobile-c95 {
+  max-width: 25%;
+  margin: auto;
+}
+
 .maxw-c35-mobile-c95 {
   max-width: 35%;
   margin: auto;
@@ -4238,6 +4706,26 @@ ul.share-buttons a:focus {
 
 .maxw-c50-mobile-c95 {
   max-width: 50%;
+  margin: auto;
+}
+
+.maxw-c55-mobile-c95 {
+  max-width: 55%;
+  margin: auto;
+}
+
+.maxw-c60-mobile-c95 {
+  max-width: 60%;
+  margin: auto;
+}
+
+.maxw-c65-mobile-c95 {
+  max-width: 65%;
+  margin: auto;
+}
+
+.maxw-c70-mobile-c95 {
+  max-width: 70%;
   margin: auto;
 }
 
@@ -4364,7 +4852,18 @@ ul.list-square-blue li {
   flex-direction: row;
 }
 
+.flex-center-adjust-inverse {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
 /*Columns, as in bootstrap, but more flexible.*/
+.col-512 {
+  width: 512px;
+}
+
 .col-256 {
   width: 256px;
 }
@@ -4379,6 +4878,62 @@ ul.list-square-blue li {
 
 .col-128 {
   width: 128px;
+}
+
+.col-64 {
+  width: 64px;
+}
+
+.col-75p {
+  width: 75%;
+}
+
+.col-70p {
+  width: 70%;
+}
+
+.col-65p {
+  width: 65%;
+}
+
+.col-60p {
+  width: 60%;
+}
+
+.col-55p {
+  width: 55%;
+}
+
+.col-50p {
+  width: 50%;
+}
+
+.col-45p {
+  width: 45%;
+}
+
+.col-40p {
+  width: 40%;
+}
+
+.col-35p {
+  width: 35%;
+}
+
+.col-30p {
+  width: 30%;
+}
+
+.col-25p {
+  width: 25%;
+}
+
+.col-20p {
+  width: 20%;
+}
+
+.col-15p {
+  width: 15%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -4399,7 +4954,6 @@ ul.list-square-blue li {
   }
 
   .psfruitjuice-mobile-navitem {
-    display: block;
     visibility: visible;
     display: flex;
     justify-content:center;
@@ -4417,6 +4971,11 @@ ul.list-square-blue li {
     margin: auto;
   }
 
+  .maxw-c25-mobile-c95 {
+    max-width: 95%;
+    margin: auto;
+  }
+
   .maxw-c35-mobile-c95 {
     max-width: 95%;
     margin: auto;
@@ -4428,6 +4987,21 @@ ul.list-square-blue li {
   }
 
   .maxw-c50-mobile-c95 {
+    max-width: 95%;
+    margin: auto;
+  }
+
+  .maxw-c55-mobile-c95 {
+    max-width: 95%;
+    margin: auto;
+  }
+
+  .maxw-c60-mobile-c95 {
+    max-width: 95%;
+    margin: auto;
+  }
+
+  .maxw-c65-mobile-c95 {
     max-width: 95%;
     margin: auto;
   }
@@ -4448,4 +5022,51 @@ ul.list-square-blue li {
     align-content: center;
     flex-direction: column;
   }
+
+  .flex-center-adjust-inverse {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+  }
+}
+
+.rotate15 {
+  transition: 1.375s;
+}
+
+.rotate15:hover {
+  transform: rotate(15deg);
+  transition: 1.375s;
+}
+
+.rotate35 {
+  transition: 1.375s;
+}
+
+.rotate35:hover {
+  transform: rotate(35deg) !important;
+  transition: 1.375s;
+}
+
+.magnify-1p2 {
+  transition: 1.375s;
+}
+
+.magnify-1p2:hover {
+  transition: 1.375s;
+  transform: scale(1.2);
+}
+
+.magnify-1p5 {
+  transition: 1.375s;
+}
+
+.magnify-1p5:hover {
+  transition: 1.375s;
+  transform: scale(1.5);
+}
+
+.full-height {
+  height: 100%;
 }

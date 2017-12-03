@@ -64,6 +64,11 @@ passionfruit.css - A css library of commonly used styles.
   text-decoration: underline;
 }
 
+.text-smallcaps {
+  font-variant: small-caps;
+}
+
+
 /*deprecated*/
 .boldest {
   font-weight: 900;
@@ -395,8 +400,6 @@ max-width: 32px !important;
   max-height: 24px;
   max-width: 24px !important;
 }
-
-
 /***[Image Size Classes]***/
 
 /*Floats*/
@@ -1598,6 +1601,18 @@ TODO: Write all the higher numbers in.
 
 .marmuhtop105 {
   margin-top: 105px !important;
+}
+
+.marmuhtop115 {
+  margin-top: 115px !important;
+}
+
+.marmuhtop125 {
+  margin-top: 125px !important;
+}
+
+.marmuhtop135 {
+  margin-top: 135px !important;
 }
 
 .marmuhtop145 {
@@ -3669,7 +3684,10 @@ TODO: Write all the higher numbers in.
   z-index: 1000;
 }
 
-
+.nega-z {
+  position: relative;
+  z-index: -5 !important;
+}
 
 /* Spread nav-bar items on hover for a nice, fluid effect */
 @keyframes navimation {
@@ -3965,6 +3983,9 @@ TODO: Write all the higher numbers in.
   animation-name: unfold-xb;
   animation-duration: 1.35s;
   animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  transform: scaleX(1);
+  transition: 1s;
 }
 
 .zoom {
@@ -4963,6 +4984,10 @@ ul.list-square-blue li {
 
   .hidden-in-mobile {
     display: none;
+  }
+
+  .hidden-till-mobile-secondary {
+    display: none !important;
   }
 
   .maxw-mobile-c95 {

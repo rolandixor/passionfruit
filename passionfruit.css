@@ -4186,6 +4186,16 @@ TODO: Write all the higher numbers in.
  border-bottom-right-radius: 3px !important;
 }
 
+.roundmuhbottom4 {
+ border-bottom-left-radius: 4px !important;
+ border-bottom-right-radius: 4px !important;
+}
+
+.roundmuhbottom5 {
+ border-bottom-left-radius: 5px !important;
+ border-bottom-right-radius: 5px !important;
+}
+
 .roundmuhbottom10 {
  border-bottom-left-radius: 4px !important;
  border-bottom-right-radius: 4px !important;

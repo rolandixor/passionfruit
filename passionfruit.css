@@ -73,9 +73,14 @@ passionfruit.css - A css library of commonly used styles.
 .boldest {
   font-weight: 900;
 }
+/*deprecated*/
 
 .text-caps {
   text-transform: uppercase;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
 }
 /***[Fonts]***/
 
@@ -753,6 +758,18 @@ TODO: Write all the higher numbers in.
 
 .padmuhtop15 {
   padding-top: 15px !important;
+}
+.padmuhtop16 {
+  padding-top: 16px !important;
+}
+.padmuhtop17 {
+  padding-top: 17px !important;
+}
+.padmuhtop18 {
+  padding-top: 18px !important;
+}
+.padmuhtop19 {
+  padding-top: 19px !important;
 }
 
 .padmuhtop20 {
@@ -2459,6 +2476,10 @@ TODO: Write all the higher numbers in.
   margin-top: -95px !important;
 }
 
+.negamar-top100 {
+  margin-top: -100px !important;
+}
+
 .negamar-top105 {
   margin-top: -105px !important;
 }
@@ -2497,7 +2518,14 @@ TODO: Write all the higher numbers in.
 
 .negamar-left {
   margin-left: -15px !important;
+}
 
+.negamar-left3 {
+  margin-left: -3px !important;
+}
+
+.negamar-left4 {
+  margin-left: -4px !important;
 }
 
 .negamar-left5 {
@@ -4286,7 +4314,7 @@ TODO: Write all the higher numbers in.
  border-bottom-right-radius: 21px !important;
 }
 
-.nocolorborder {
+.nocolorborder, .borderless {
   border-style: none !important;
   border-color: rgba(0, 0, 0, 0) !important;
 }
@@ -4720,6 +4748,26 @@ ul.share-buttons a:focus {
   display: none;
 }
 
+.maxw-c5-mobile-c95 {
+  max-width: 5%;
+  margin: auto;
+}
+
+.maxw-c10-mobile-c95 {
+  max-width: 10%;
+  margin: auto;
+}
+
+.maxw-c15-mobile-c95 {
+  max-width: 15%;
+  margin: auto;
+}
+
+.maxw-c20-mobile-c95 {
+  max-width: 20%;
+  margin: auto;
+}
+
 .maxw-c25-mobile-c95 {
   max-width: 25%;
   margin: auto;
@@ -4863,6 +4911,7 @@ ul.list-square-blue li {
   justify-content: center;
   align-content:center;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .flex-me-central {
@@ -4890,6 +4939,10 @@ ul.list-square-blue li {
   flex-direction: column;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 /*Columns, as in bootstrap, but more flexible.*/
 .col-512 {
   width: 512px;
@@ -4914,6 +4967,11 @@ ul.list-square-blue li {
 .col-64 {
   width: 64px;
 }
+
+.col-95p {
+  width: 95%;
+}
+
 
 .col-75p {
   width: 75%;
@@ -5006,42 +5064,11 @@ ul.list-square-blue li {
     margin: auto;
   }
 
-  .maxw-c25-mobile-c95 {
-    max-width: 95%;
-    margin: auto;
-  }
-
-  .maxw-c35-mobile-c95 {
-    max-width: 95%;
-    margin: auto;
-  }
-
-  .maxw-c45-mobile-c95 {
-    max-width: 95%;
-    margin: auto;
-  }
-
-  .maxw-c50-mobile-c95 {
-    max-width: 95%;
-    margin: auto;
-  }
-
-  .maxw-c55-mobile-c95 {
-    max-width: 95%;
-    margin: auto;
-  }
-
-  .maxw-c60-mobile-c95 {
-    max-width: 95%;
-    margin: auto;
-  }
-
-  .maxw-c65-mobile-c95 {
-    max-width: 95%;
-    margin: auto;
-  }
-
-  .maxw-c75-mobile-c95 {
+  .maxw-c5-mobile-c95, .maxw-c10-mobile-c95, .maxw-c15-mobile-c95,
+  .maxw-c20-mobile-c95, .maxw-c25-mobile-c95, .maxw-c35-mobile-c95,
+  .maxw-c45-mobile-c95, .maxw-c50-mobile-c95, .maxw-c55-mobile-c95,
+  .maxw-c60-mobile-c95, .maxw-c65-mobile-c95, .maxw-c75-mobile-c95,
+  .maxw-c80-mobile-c95, .maxw-c85-mobile-c95, maxw-c90-mobile-c95 {
     max-width: 95%;
     margin: auto;
   }

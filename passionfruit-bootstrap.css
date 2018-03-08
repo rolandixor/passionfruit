@@ -150,12 +150,13 @@ passionfruit-bootstrap.css - rename to passionfruit-juice.css
   float: left;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 3px;
   margin-left: 5px;
   margin-right: 5px;
   display: flex;
   justify-content:center;
   align-content:center;
-  flex-direction:column;
+  flex-direction:row;
 }
 
 .psfruitjuice-navmenu-spacer-tiny-left {
@@ -574,6 +575,14 @@ passionfruit-bootstrap.css - rename to passionfruit-juice.css
   background-color: rgb(45, 175, 175);
 }
 
+.label-div-dull-yellow {
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-color: rgb(225, 175, 35);
+}
+
 .label-div-orange {
   border-radius: 5px;
   padding: 5px;
@@ -960,7 +969,7 @@ passionfruit-bootstrap.css - rename to passionfruit-juice.css
   background-color: rgba(45, 45, 45, 0.9);
   border-radius: 15px;
   border-width: 1px;
-  border-color: rgba(215, 215, 215, 0.3);
+  border-color: rgba(215, 215, 215, 0.1);
   box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.5);
   border-style: solid;
   padding: 15px;
